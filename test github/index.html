@@ -1,0 +1,2872 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><base href="https://d16ilfvy4mv02r.cloudfront.net/workspaces/IMgh5eHf9HmWPRCHDmaO7aQ3jHkhSuJ5/56171d09-707c-4f06-888d-002c438e76a2/files/">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Framed & Motion Studio — Professional photography and videography. Book your shoot, explore our portfolio, and capture timeless moments.">
+<meta name="keywords" content="photography studio, motion video, portrait photography, wedding photography, booking">
+<meta property="og:title" content="Framed & Motion Studio">
+<meta property="og:description" content="Where every frame tells a story. Professional photography & videography.">
+<meta property="og:type" content="website">
+<title>Framed & Motion Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&family=Dancing+Script:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  /* ===== CSS VARIABLES ===== */
+  :root {
+    --blush: #C9A99A;
+    --blush-light: #E8D0C4;
+    --blush-pale: #F2E6DF;
+    --espresso: #2C1810;
+    --espresso-soft: #4A2E22;
+    --sage: #8B7355;
+    --sage-light: #B8A48A;
+    --ivory: #FAF6F3;
+    --cream: #F5EDE8;
+    --white: #FFFFFF;
+    --gray-100: #F8F4F1;
+    --gray-200: #EDE5DF;
+    --gray-400: #B8A89E;
+    --gray-600: #7A6660;
+    --gray-800: #3D2922;
+    --text-dark: #2C1810;
+    --text-mid: #5A3D33;
+    --text-light: #8B7355;
+    --shadow-sm: 0 2px 8px rgba(44,24,16,0.08);
+    --shadow-md: 0 8px 32px rgba(44,24,16,0.12);
+    --shadow-lg: 0 20px 60px rgba(44,24,16,0.18);
+    --radius: 12px;
+    --radius-lg: 20px;
+    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  /* ===== RESET ===== */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; font-size: 16px; }
+  body {
+    font-family: 'Jost', sans-serif;
+    background: var(--ivory);
+    color: var(--text-dark);
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+  img { max-width: 100%; height: auto; display: block; }
+  a { color: inherit; text-decoration: none; }
+  button { cursor: pointer; border: none; background: none; font-family: inherit; }
+  ul { list-style: none; }
+  input, textarea, select {
+    font-family: inherit;
+    width: 100%;
+    border: 1.5px solid var(--gray-200);
+    border-radius: 8px;
+    padding: 12px 16px;
+    background: var(--white);
+    color: var(--text-dark);
+    font-size: 0.95rem;
+    transition: var(--transition);
+    outline: none;
+  }
+  input:focus, textarea:focus, select:focus {
+    border-color: var(--blush);
+    box-shadow: 0 0 0 3px rgba(201,169,154,0.2);
+  }
+  label { font-size: 0.85rem; font-weight: 500; color: var(--text-mid); letter-spacing: 0.05em; text-transform: uppercase; display: block; margin-bottom: 6px; }
+
+  /* ===== TYPOGRAPHY ===== */
+  h1, h2, h3, h4 { font-family: 'Cormorant Garamond', serif; line-height: 1.2; }
+  h1 { font-size: clamp(2.5rem, 6vw, 5rem); font-weight: 300; }
+  h2 { font-size: clamp(2rem, 4vw, 3.2rem); font-weight: 300; }
+  h3 { font-size: clamp(1.4rem, 2.5vw, 1.9rem); font-weight: 400; }
+  h4 { font-size: 1.2rem; font-weight: 500; }
+  .script { font-family: 'Dancing Script', cursive; }
+
+  /* ===== LAYOUT ===== */
+  .container { max-width: 1280px; margin: 0 auto; padding: 0 24px; }
+  .section { padding: 100px 0; }
+  .section-sm { padding: 60px 0; }
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; }
+  .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
+  .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+
+  /* ===== NAVIGATION ===== */
+  .nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+    padding: 20px 0;
+    transition: var(--transition);
+    background: transparent;
+  }
+  .nav.scrolled {
+    background: rgba(250,246,243,0.95);
+    backdrop-filter: blur(16px);
+    padding: 14px 0;
+    box-shadow: var(--shadow-sm);
+  }
+  .nav-inner { display: flex; align-items: center; justify-content: space-between; }
+  .nav-logo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.6rem;
+    color: var(--espresso);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+  .nav-logo span { color: var(--blush); }
+  .nav-links { display: flex; align-items: center; gap: 36px; }
+  .nav-links a {
+    font-size: 0.85rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-dark);
+    position: relative;
+    transition: var(--transition);
+  }
+  .nav-links a::after {
+    content: '';
+    position: absolute;
+    bottom: -4px; left: 0; right: 0;
+    height: 1px;
+    background: var(--blush);
+    transform: scaleX(0);
+    transition: var(--transition);
+  }
+  .nav-links a:hover::after, .nav-links a.active::after { transform: scaleX(1); }
+  .nav-links a:hover { color: var(--blush); }
+  .nav-actions { display: flex; align-items: center; gap: 16px; }
+  .hamburger { display: none; flex-direction: column; gap: 5px; padding: 4px; }
+  .hamburger span { display: block; width: 24px; height: 1.5px; background: var(--espresso); transition: var(--transition); }
+  .mobile-menu {
+    display: none;
+    position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+    background: var(--ivory);
+    z-index: 999;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  .mobile-menu.open { display: flex; }
+  .mobile-menu a { font-size: 1.8rem; font-family: 'Cormorant Garamond', serif; font-weight: 300; color: var(--espresso); }
+  .mobile-close { position: absolute; top: 24px; right: 24px; font-size: 2rem; color: var(--espresso); background: none; border: none; cursor: pointer; }
+
+  /* ===== BUTTONS ===== */
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+    padding: 14px 32px;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: var(--transition);
+    cursor: pointer;
+    border: none;
+    font-family: 'Jost', sans-serif;
+  }
+  .btn-primary {
+    background: var(--espresso);
+    color: var(--white);
+  }
+  .btn-primary:hover {
+    background: var(--espresso-soft);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+  }
+  .btn-outline {
+    background: transparent;
+    color: var(--espresso);
+    border: 1.5px solid var(--espresso);
+  }
+  .btn-outline:hover {
+    background: var(--espresso);
+    color: var(--white);
+    transform: translateY(-2px);
+  }
+  .btn-blush {
+    background: var(--blush);
+    color: var(--white);
+  }
+  .btn-blush:hover {
+    background: var(--sage);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+  }
+  .btn-ghost {
+    background: transparent;
+    color: var(--white);
+    border: 1.5px solid rgba(255,255,255,0.6);
+  }
+  .btn-ghost:hover {
+    background: rgba(255,255,255,0.15);
+    border-color: var(--white);
+  }
+  .btn-sm { padding: 10px 24px; font-size: 0.78rem; }
+
+  /* ===== SECTION LABEL ===== */
+  .section-label {
+    display: flex; align-items: center; gap: 16px;
+    margin-bottom: 20px;
+  }
+  .section-label::before {
+    content: '';
+    display: block;
+    width: 40px; height: 1px;
+    background: var(--blush);
+  }
+  .section-label span {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--blush);
+  }
+
+  /* ===== PAGES ===== */
+  .page { display: none; min-height: 100vh; }
+  .page.active { display: block; }
+
+  /* ===== HERO ===== */
+  .hero {
+    position: relative;
+    min-height: 100vh;
+    display: flex; align-items: center;
+    overflow: hidden;
+    background: var(--espresso);
+  }
+  .hero-bg {
+    position: absolute; inset: 0;
+    background: linear-gradient(135deg, #2C1810 0%, #4A2E22 40%, #C9A99A 100%);
+    opacity: 0.9;
+  }
+  .hero-pattern {
+    position: absolute; inset: 0;
+    background-image: 
+      radial-gradient(circle at 20% 50%, rgba(201,169,154,0.15) 0%, transparent 50%),
+      radial-gradient(circle at 80% 20%, rgba(232,208,196,0.1) 0%, transparent 40%);
+  }
+  .hero-content {
+    position: relative; z-index: 2;
+    padding: 140px 0 100px;
+    max-width: 800px;
+  }
+  .hero-eyebrow {
+    display: inline-flex; align-items: center; gap: 12px;
+    background: rgba(201,169,154,0.2);
+    border: 1px solid rgba(201,169,154,0.3);
+    border-radius: 50px;
+    padding: 8px 20px;
+    margin-bottom: 32px;
+    color: var(--blush-light);
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+  .hero-title {
+    color: var(--white);
+    margin-bottom: 24px;
+    font-weight: 300;
+  }
+  .hero-title em {
+    font-style: italic;
+    color: var(--blush-light);
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.1em;
+  }
+  .hero-subtitle {
+    color: rgba(255,255,255,0.75);
+    font-size: 1.1rem;
+    max-width: 520px;
+    margin-bottom: 48px;
+    line-height: 1.8;
+  }
+  .hero-actions { display: flex; gap: 16px; flex-wrap: wrap; }
+  .hero-scroll {
+    position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%);
+    display: flex; flex-direction: column; align-items: center; gap: 8px;
+    color: rgba(255,255,255,0.5);
+    font-size: 0.7rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    animation: bounce 2s infinite;
+  }
+  .hero-scroll::after {
+    content: '';
+    display: block;
+    width: 1px; height: 40px;
+    background: rgba(255,255,255,0.3);
+  }
+  @keyframes bounce {
+    0%, 100% { transform: translateX(-50%) translateY(0); }
+    50% { transform: translateX(-50%) translateY(8px); }
+  }
+  .hero-stats {
+    position: absolute; right: 0; bottom: 80px;
+    display: flex; gap: 48px;
+    background: rgba(255,255,255,0.07);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: var(--radius-lg);
+    padding: 32px 48px;
+  }
+  .stat { text-align: center; }
+  .stat-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: var(--white);
+    line-height: 1;
+  }
+  .stat-label { font-size: 0.75rem; color: rgba(255,255,255,0.5); margin-top: 4px; letter-spacing: 0.1em; text-transform: uppercase; }
+
+  /* ===== ABOUT STRIP ===== */
+  .about-strip {
+    background: var(--blush);
+    padding: 80px 0;
+  }
+  .about-strip .grid-2 { gap: 80px; }
+  .about-strip h2 { color: var(--white); }
+  .about-strip p { color: rgba(255,255,255,0.85); font-size: 1.05rem; line-height: 1.9; margin-top: 20px; }
+  .about-strip .btn-ghost { margin-top: 32px; }
+
+  /* ===== SERVICES PREVIEW ===== */
+  .services-preview { background: var(--ivory); }
+  .service-card {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    transition: var(--transition);
+    position: relative;
+    box-shadow: var(--shadow-sm);
+  }
+  .service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-lg);
+  }
+  .service-card-img {
+    height: 240px;
+    position: relative;
+    overflow: hidden;
+  }
+  .service-card-img .placeholder-img {
+    width: 100%; height: 100%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 3rem;
+  }
+  .service-card-body { padding: 28px; }
+  .service-tag {
+    display: inline-block;
+    background: var(--blush-pale);
+    color: var(--sage);
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 5px 14px;
+    border-radius: 50px;
+    margin-bottom: 14px;
+  }
+  .service-card h3 { color: var(--espresso); margin-bottom: 10px; font-size: 1.4rem; }
+  .service-card p { color: var(--text-light); font-size: 0.93rem; line-height: 1.7; }
+  .service-card-footer {
+    padding: 20px 28px;
+    border-top: 1px solid var(--gray-200);
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  .service-price { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 500; color: var(--espresso); }
+  .service-price small { font-family: 'Jost', sans-serif; font-size: 0.75rem; color: var(--text-light); }
+
+  /* ===== PORTFOLIO GRID ===== */
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 16px;
+    margin-top: 48px;
+  }
+  .portfolio-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--radius);
+    cursor: pointer;
+  }
+  .portfolio-item:nth-child(1) { grid-column: span 5; grid-row: span 2; }
+  .portfolio-item:nth-child(2) { grid-column: span 4; }
+  .portfolio-item:nth-child(3) { grid-column: span 3; }
+  .portfolio-item:nth-child(4) { grid-column: span 4; }
+  .portfolio-item:nth-child(5) { grid-column: span 3; }
+  .portfolio-item:nth-child(6) { grid-column: span 5; }
+  .portfolio-item:nth-child(7) { grid-column: span 4; }
+  .portfolio-item:nth-child(8) { grid-column: span 3; }
+  .portfolio-placeholder {
+    width: 100%;
+    height: 100%;
+    min-height: 220px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 2.5rem;
+  }
+  .portfolio-item:nth-child(1) .portfolio-placeholder { min-height: 456px; }
+  .portfolio-overlay {
+    position: absolute; inset: 0;
+    background: linear-gradient(to top, rgba(44,24,16,0.8) 0%, transparent 60%);
+    opacity: 0;
+    transition: var(--transition);
+    display: flex; align-items: flex-end; padding: 24px;
+  }
+  .portfolio-item:hover .portfolio-overlay { opacity: 1; }
+  .portfolio-overlay-text h4 { color: var(--white); font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; }
+  .portfolio-overlay-text p { color: rgba(255,255,255,0.7); font-size: 0.8rem; margin-top: 4px; }
+
+  /* ===== TESTIMONIALS ===== */
+  .testimonials { background: var(--cream); }
+  .testimonial-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; margin-top: 48px; }
+  .testimonial-card {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 36px;
+    box-shadow: var(--shadow-sm);
+    position: relative;
+  }
+  .testimonial-card::before {
+    content: '"';
+    position: absolute; top: 20px; left: 28px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 5rem;
+    line-height: 1;
+    color: var(--blush-pale);
+    z-index: 0;
+  }
+  .testimonial-text { position: relative; z-index: 1; font-size: 0.97rem; line-height: 1.8; color: var(--text-mid); margin-bottom: 24px; font-style: italic; }
+  .testimonial-author { display: flex; align-items: center; gap: 14px; }
+  .testimonial-avatar {
+    width: 48px; height: 48px; border-radius: 50%;
+    background: var(--blush);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.2rem; color: var(--white);
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    flex-shrink: 0;
+  }
+  .testimonial-name { font-weight: 600; color: var(--espresso); font-size: 0.9rem; }
+  .testimonial-role { font-size: 0.8rem; color: var(--text-light); }
+  .stars { color: #D4A96A; font-size: 0.9rem; margin-bottom: 4px; }
+
+  /* ===== BOOKING CTA ===== */
+  .booking-cta {
+    background: var(--espresso);
+    padding: 120px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .booking-cta::before {
+    content: '';
+    position: absolute;
+    top: -100px; left: 50%;
+    transform: translateX(-50%);
+    width: 600px; height: 600px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(201,169,154,0.15) 0%, transparent 70%);
+  }
+  .booking-cta h2 { color: var(--white); margin-bottom: 16px; position: relative; }
+  .booking-cta p { color: rgba(255,255,255,0.65); max-width: 500px; margin: 0 auto 40px; font-size: 1.05rem; line-height: 1.8; position: relative; }
+  .booking-cta .btn-blush { position: relative; }
+
+  /* ===== PORTFOLIO PAGE ===== */
+  .portfolio-filters {
+    display: flex; gap: 12px; flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  .filter-btn {
+    padding: 9px 22px;
+    border-radius: 50px;
+    font-size: 0.82rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border: 1.5px solid var(--gray-200);
+    color: var(--text-light);
+    background: var(--white);
+    cursor: pointer;
+    transition: var(--transition);
+  }
+  .filter-btn:hover, .filter-btn.active {
+    background: var(--espresso);
+    color: var(--white);
+    border-color: var(--espresso);
+  }
+  .masonry-grid {
+    columns: 3;
+    column-gap: 20px;
+  }
+  .masonry-item {
+    break-inside: avoid;
+    margin-bottom: 20px;
+    border-radius: var(--radius);
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+  }
+  .masonry-placeholder {
+    width: 100%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 2.5rem;
+    transition: transform 0.4s ease;
+  }
+  .masonry-item:hover .masonry-placeholder { transform: scale(1.05); }
+  .masonry-item-overlay {
+    position: absolute; inset: 0;
+    background: linear-gradient(to top, rgba(44,24,16,0.7) 0%, transparent 50%);
+    opacity: 0; transition: var(--transition);
+    display: flex; align-items: flex-end; padding: 20px;
+    color: var(--white);
+  }
+  .masonry-item:hover .masonry-item-overlay { opacity: 1; }
+  .masonry-item-overlay h4 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; }
+  .masonry-item-overlay p { font-size: 0.78rem; opacity: 0.8; margin-top: 2px; }
+
+  /* ===== SERVICES PAGE ===== */
+  .pricing-toggle {
+    display: flex; align-items: center; gap: 16px;
+    justify-content: center;
+    margin-bottom: 48px;
+  }
+  .toggle-label { font-size: 0.9rem; color: var(--text-light); }
+  .toggle {
+    position: relative;
+    width: 52px; height: 28px;
+    background: var(--gray-200);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: var(--transition);
+  }
+  .toggle.on { background: var(--blush); }
+  .toggle::after {
+    content: '';
+    position: absolute;
+    top: 3px; left: 3px;
+    width: 22px; height: 22px;
+    border-radius: 50%;
+    background: var(--white);
+    transition: var(--transition);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+  }
+  .toggle.on::after { left: 27px; }
+  .pricing-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+  .pricing-card {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 40px 36px;
+    box-shadow: var(--shadow-sm);
+    border: 2px solid transparent;
+    transition: var(--transition);
+    position: relative;
+  }
+  .pricing-card:hover { border-color: var(--blush); transform: translateY(-4px); box-shadow: var(--shadow-md); }
+  .pricing-card.featured {
+    background: var(--espresso);
+    border-color: var(--blush);
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-lg);
+  }
+  .pricing-card.featured * { color: rgba(255,255,255,0.85); }
+  .pricing-card.featured h3, .pricing-card.featured .price-num { color: var(--white); }
+  .popular-badge {
+    position: absolute; top: -14px; left: 50%; transform: translateX(-50%);
+    background: var(--blush);
+    color: var(--white);
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    border-radius: 50px;
+    white-space: nowrap;
+  }
+  .pricing-card h3 { color: var(--espresso); margin-bottom: 8px; font-size: 1.5rem; }
+  .price-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--espresso);
+    line-height: 1;
+    margin: 20px 0;
+  }
+  .price-num small { font-size: 1rem; font-family: 'Jost', sans-serif; font-weight: 300; opacity: 0.6; }
+  .pricing-features { margin: 24px 0 32px; display: flex; flex-direction: column; gap: 12px; }
+  .pricing-feature { display: flex; align-items: center; gap: 10px; font-size: 0.9rem; }
+  .pricing-feature::before {
+    content: '✓';
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 20px; height: 20px;
+    border-radius: 50%;
+    background: var(--blush-pale);
+    color: var(--sage);
+    font-size: 0.7rem;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+  .pricing-card.featured .pricing-feature::before { background: rgba(201,169,154,0.2); color: var(--blush-light); }
+
+  /* ===== BOOKING PAGE ===== */
+  .booking-layout { display: grid; grid-template-columns: 1fr 360px; gap: 48px; align-items: start; }
+  .calendar-wrapper {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 36px;
+    box-shadow: var(--shadow-sm);
+  }
+  .calendar-header {
+    display: flex; align-items: center; justify-content: space-between;
+    margin-bottom: 32px;
+  }
+  .cal-nav {
+    width: 40px; height: 40px;
+    border-radius: 50%;
+    border: 1.5px solid var(--gray-200);
+    display: flex; align-items: center; justify-content: center;
+    cursor: pointer;
+    transition: var(--transition);
+    font-size: 1.1rem;
+    background: var(--white);
+    color: var(--espresso);
+  }
+  .cal-nav:hover { background: var(--espresso); color: var(--white); border-color: var(--espresso); }
+  .cal-month { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 500; color: var(--espresso); }
+  .cal-weekdays {
+    display: grid; grid-template-columns: repeat(7, 1fr);
+    margin-bottom: 8px;
+  }
+  .cal-weekday {
+    text-align: center;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-light);
+    padding: 8px 0;
+  }
+  .cal-days { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; }
+  .cal-day {
+    aspect-ratio: 1;
+    display: flex; align-items: center; justify-content: center;
+    border-radius: 50%;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: var(--transition);
+    font-weight: 400;
+    position: relative;
+    color: var(--text-dark);
+  }
+  .cal-day:hover:not(.disabled):not(.empty) {
+    background: var(--blush-pale);
+    color: var(--espresso);
+  }
+  .cal-day.selected {
+    background: var(--espresso);
+    color: var(--white);
+    font-weight: 500;
+  }
+  .cal-day.today::after {
+    content: '';
+    position: absolute;
+    bottom: 4px;
+    width: 4px; height: 4px;
+    border-radius: 50%;
+    background: var(--blush);
+  }
+  .cal-day.booked {
+    background: var(--blush-pale);
+    color: var(--text-light);
+    cursor: not-allowed;
+  }
+  .cal-day.disabled { color: var(--gray-200); cursor: not-allowed; }
+  .cal-day.empty { cursor: default; }
+  .time-slots { margin-top: 32px; }
+  .time-slots h4 { color: var(--espresso); margin-bottom: 16px; font-size: 1rem; font-weight: 600; }
+  .slots-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+  .slot {
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1.5px solid var(--gray-200);
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: var(--transition);
+    color: var(--text-dark);
+    background: var(--white);
+  }
+  .slot:hover:not(.unavailable) { border-color: var(--blush); background: var(--blush-pale); }
+  .slot.selected { background: var(--espresso); color: var(--white); border-color: var(--espresso); }
+  .slot.unavailable { background: var(--gray-100); color: var(--gray-400); cursor: not-allowed; text-decoration: line-through; }
+  .booking-summary {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 36px;
+    box-shadow: var(--shadow-sm);
+    position: sticky; top: 100px;
+  }
+  .booking-summary h3 { color: var(--espresso); margin-bottom: 24px; }
+  .summary-row { display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid var(--gray-200); font-size: 0.9rem; }
+  .summary-row:last-child { border-bottom: none; }
+  .summary-row .label { color: var(--text-light); }
+  .summary-row .value { font-weight: 500; color: var(--espresso); }
+  .summary-total .value { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; color: var(--blush); }
+  .booking-form { margin-top: 28px; display: flex; flex-direction: column; gap: 16px; }
+
+  /* ===== ABOUT PAGE ===== */
+  .team-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; margin-top: 48px; }
+  .team-card {
+    text-align: center;
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 40px 28px;
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+  }
+  .team-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-md); }
+  .team-avatar {
+    width: 100px; height: 100px;
+    border-radius: 50%;
+    background: var(--blush);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 2.5rem;
+    color: var(--white);
+    margin: 0 auto 20px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    border: 4px solid var(--blush-light);
+  }
+  .team-card h3 { color: var(--espresso); margin-bottom: 4px; }
+  .team-role { color: var(--blush); font-size: 0.85rem; font-weight: 500; letter-spacing: 0.08em; margin-bottom: 14px; }
+  .team-bio { color: var(--text-light); font-size: 0.9rem; line-height: 1.7; }
+
+  /* ===== CONTACT PAGE ===== */
+  .contact-layout { display: grid; grid-template-columns: 1fr 1.2fr; gap: 64px; align-items: start; }
+  .contact-info-card {
+    background: var(--blush);
+    border-radius: var(--radius-lg);
+    padding: 52px 44px;
+    color: var(--white);
+  }
+  .contact-info-card h2 { color: var(--white); margin-bottom: 16px; }
+  .contact-info-card p { color: rgba(255,255,255,0.8); margin-bottom: 36px; font-size: 1rem; line-height: 1.8; }
+  .contact-item { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 24px; }
+  .contact-icon {
+    width: 44px; height: 44px; border-radius: 10px;
+    background: rgba(255,255,255,0.15);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+  }
+  .contact-item-text .ci-label { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; opacity: 0.7; margin-bottom: 4px; }
+  .contact-item-text .ci-value { font-size: 0.95rem; }
+  .contact-social { display: flex; gap: 12px; margin-top: 32px; }
+  .social-btn {
+    width: 44px; height: 44px; border-radius: 10px;
+    background: rgba(255,255,255,0.15);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.1rem;
+    transition: var(--transition);
+    cursor: pointer;
+    border: none;
+    color: var(--white);
+  }
+  .social-btn:hover { background: rgba(255,255,255,0.25); transform: translateY(-2px); }
+  .contact-form {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 52px 44px;
+    box-shadow: var(--shadow-sm);
+  }
+  .contact-form h2 { color: var(--espresso); margin-bottom: 32px; }
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .form-group { display: flex; flex-direction: column; margin-bottom: 20px; }
+
+  /* ===== AUTH PAGES ===== */
+  .auth-page {
+    min-height: 100vh;
+    display: flex; align-items: center; justify-content: center;
+    background: var(--cream);
+    padding: 120px 24px 60px;
+  }
+  .auth-card {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 52px;
+    width: 100%;
+    max-width: 480px;
+    box-shadow: var(--shadow-md);
+  }
+  .auth-logo {
+    text-align: center;
+    margin-bottom: 36px;
+  }
+  .auth-logo .script { font-size: 2rem; color: var(--espresso); }
+  .auth-logo p { color: var(--text-light); font-size: 0.85rem; margin-top: 8px; }
+  .auth-title { font-size: 1.8rem; color: var(--espresso); margin-bottom: 8px; text-align: center; }
+  .auth-subtitle { color: var(--text-light); text-align: center; font-size: 0.9rem; margin-bottom: 32px; }
+  .auth-divider { display: flex; align-items: center; gap: 16px; margin: 20px 0; }
+  .auth-divider::before, .auth-divider::after { content: ''; flex: 1; height: 1px; background: var(--gray-200); }
+  .auth-divider span { font-size: 0.8rem; color: var(--text-light); }
+  .auth-switch { text-align: center; margin-top: 24px; font-size: 0.9rem; color: var(--text-light); }
+  .auth-switch a { color: var(--blush); font-weight: 500; cursor: pointer; }
+  .auth-switch a:hover { text-decoration: underline; }
+
+  /* ===== DASHBOARD ===== */
+  .dashboard-layout { display: grid; grid-template-columns: 260px 1fr; gap: 0; min-height: 100vh; }
+  .sidebar {
+    background: var(--espresso);
+    padding: 32px 24px;
+    position: fixed; top: 0; left: 0; bottom: 0;
+    width: 260px;
+    overflow-y: auto;
+    z-index: 100;
+  }
+  .sidebar-logo { margin-bottom: 48px; }
+  .sidebar-logo .script { font-size: 1.5rem; color: var(--white); }
+  .sidebar-logo span { color: var(--blush-light); }
+  .sidebar-logo p { font-size: 0.72rem; color: rgba(255,255,255,0.4); margin-top: 4px; letter-spacing: 0.1em; text-transform: uppercase; }
+  .sidebar-nav { display: flex; flex-direction: column; gap: 4px; }
+  .sidebar-section-label {
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.3);
+    padding: 16px 12px 8px;
+  }
+  .sidebar-item {
+    display: flex; align-items: center; gap: 12px;
+    padding: 11px 14px;
+    border-radius: 10px;
+    font-size: 0.88rem;
+    color: rgba(255,255,255,0.65);
+    cursor: pointer;
+    transition: var(--transition);
+  }
+  .sidebar-item:hover { background: rgba(255,255,255,0.08); color: var(--white); }
+  .sidebar-item.active { background: var(--blush); color: var(--white); }
+  .sidebar-item .icon { font-size: 1.1rem; width: 22px; text-align: center; }
+  .sidebar-item .badge {
+    margin-left: auto;
+    background: rgba(255,255,255,0.2);
+    padding: 2px 8px;
+    border-radius: 50px;
+    font-size: 0.7rem;
+  }
+  .sidebar-item.active .badge { background: rgba(255,255,255,0.3); }
+  .dashboard-main {
+    margin-left: 260px;
+    padding: 48px;
+    background: var(--gray-100);
+    min-height: 100vh;
+  }
+  .dash-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 36px; }
+  .dash-title { font-size: 1.6rem; color: var(--espresso); font-family: 'Cormorant Garamond', serif; font-weight: 500; }
+  .dash-subtitle { font-size: 0.88rem; color: var(--text-light); margin-top: 4px; }
+  .stats-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-bottom: 32px; }
+  .stat-card {
+    background: var(--white);
+    border-radius: var(--radius);
+    padding: 24px;
+    box-shadow: var(--shadow-sm);
+    position: relative;
+    overflow: hidden;
+  }
+  .stat-card::after {
+    content: '';
+    position: absolute;
+    right: -20px; bottom: -20px;
+    width: 80px; height: 80px;
+    border-radius: 50%;
+    background: var(--blush-pale);
+    opacity: 0.4;
+  }
+  .stat-card-icon {
+    font-size: 1.6rem;
+    margin-bottom: 16px;
+    display: block;
+  }
+  .stat-card-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: var(--espresso);
+    line-height: 1;
+  }
+  .stat-card-label { font-size: 0.8rem; color: var(--text-light); margin-top: 6px; }
+  .stat-card-change { font-size: 0.78rem; margin-top: 8px; color: #4CAF50; font-weight: 500; }
+  .stat-card-change.down { color: #F44336; }
+  .dash-grid { display: grid; grid-template-columns: 1.5fr 1fr; gap: 24px; }
+  .dash-card {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 28px;
+    box-shadow: var(--shadow-sm);
+  }
+  .dash-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; }
+  .dash-card-title { font-size: 1rem; font-weight: 600; color: var(--espresso); }
+  .booking-list { display: flex; flex-direction: column; gap: 12px; }
+  .booking-row {
+    display: flex; align-items: center; gap: 16px;
+    padding: 14px 16px;
+    border-radius: 10px;
+    background: var(--gray-100);
+    transition: var(--transition);
+  }
+  .booking-row:hover { background: var(--blush-pale); }
+  .booking-avatar {
+    width: 40px; height: 40px; border-radius: 50%;
+    background: var(--blush);
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.1rem;
+    color: var(--white);
+    font-weight: 600;
+    flex-shrink: 0;
+  }
+  .booking-info { flex: 1; }
+  .booking-name { font-size: 0.88rem; font-weight: 600; color: var(--espresso); }
+  .booking-detail { font-size: 0.78rem; color: var(--text-light); margin-top: 2px; }
+  .booking-status {
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 4px 12px;
+    border-radius: 50px;
+  }
+  .status-confirmed { background: #E8F5E9; color: #2E7D32; }
+  .status-pending { background: #FFF3E0; color: #E65100; }
+  .status-cancelled { background: #FFEBEE; color: #C62828; }
+  .quick-action-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .quick-action {
+    padding: 18px;
+    border-radius: 10px;
+    background: var(--gray-100);
+    cursor: pointer;
+    transition: var(--transition);
+    text-align: center;
+    border: 1.5px solid transparent;
+  }
+  .quick-action:hover { background: var(--blush-pale); border-color: var(--blush); }
+  .quick-action .qa-icon { font-size: 1.6rem; margin-bottom: 8px; }
+  .quick-action .qa-label { font-size: 0.82rem; font-weight: 500; color: var(--espresso); }
+
+  /* ===== PAGE HEADER ===== */
+  .page-header {
+    background: var(--espresso);
+    padding: 160px 0 80px;
+    position: relative;
+    overflow: hidden;
+  }
+  .page-header::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: linear-gradient(135deg, rgba(201,169,154,0.1) 0%, transparent 60%);
+  }
+  .page-header-content { position: relative; }
+  .page-header h1 { color: var(--white); margin-bottom: 12px; }
+  .page-header p { color: rgba(255,255,255,0.65); max-width: 520px; font-size: 1.05rem; line-height: 1.8; }
+  .breadcrumb { display: flex; align-items: center; gap: 8px; margin-bottom: 20px; }
+  .breadcrumb a { color: rgba(255,255,255,0.5); font-size: 0.82rem; cursor: pointer; transition: var(--transition); }
+  .breadcrumb a:hover { color: var(--blush-light); }
+  .breadcrumb span { color: rgba(255,255,255,0.3); }
+  .breadcrumb .current { color: var(--blush-light); font-size: 0.82rem; }
+
+  /* ===== FOOTER ===== */
+  .footer {
+    background: #1A0E0A;
+    color: rgba(255,255,255,0.7);
+    padding: 80px 0 0;
+  }
+  .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1.2fr; gap: 60px; margin-bottom: 60px; }
+  .footer-brand .script { font-size: 2rem; color: var(--white); display: block; margin-bottom: 16px; }
+  .footer-brand p { font-size: 0.9rem; line-height: 1.8; max-width: 280px; }
+  .footer-social { display: flex; gap: 12px; margin-top: 24px; }
+  .footer-social .social-btn {
+    background: rgba(255,255,255,0.08);
+    color: rgba(255,255,255,0.6);
+    font-size: 1rem;
+  }
+  .footer-social .social-btn:hover { background: var(--blush); color: var(--white); }
+  .footer-heading {
+    color: var(--white);
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .footer-links { display: flex; flex-direction: column; gap: 10px; }
+  .footer-links a {
+    font-size: 0.88rem;
+    transition: var(--transition);
+    cursor: pointer;
+  }
+  .footer-links a:hover { color: var(--blush-light); }
+  .footer-newsletter input {
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.12);
+    color: var(--white);
+    border-radius: 8px;
+    padding: 12px 16px;
+    font-size: 0.88rem;
+    margin-bottom: 10px;
+  }
+  .footer-newsletter input::placeholder { color: rgba(255,255,255,0.35); }
+  .footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.08);
+    padding: 24px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.82rem;
+  }
+  .footer-bottom-links { display: flex; gap: 24px; }
+  .footer-bottom-links a { cursor: pointer; transition: var(--transition); }
+  .footer-bottom-links a:hover { color: var(--blush-light); }
+
+  /* ===== TOAST NOTIFICATION ===== */
+  .toast {
+    position: fixed; bottom: 32px; right: 32px;
+    background: var(--espresso);
+    color: var(--white);
+    padding: 16px 24px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-lg);
+    z-index: 9999;
+    display: flex; align-items: center; gap: 12px;
+    font-size: 0.9rem;
+    transform: translateX(120%);
+    transition: transform 0.3s ease;
+    max-width: 360px;
+  }
+  .toast.show { transform: translateX(0); }
+  .toast-icon { font-size: 1.2rem; }
+  .toast.success .toast-icon::after { content: '✓'; }
+  .toast.error .toast-icon::after { content: '<span class="icon"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M5 5l14 14M19 5L5 19"/></svg></span>'; }
+  .toast-close { margin-left: auto; cursor: pointer; opacity: 0.6; font-size: 1.1rem; }
+
+  /* ===== MODAL ===== */
+  .modal-overlay {
+    position: fixed; inset: 0;
+    background: rgba(44,24,16,0.7);
+    backdrop-filter: blur(4px);
+    z-index: 2000;
+    display: none; align-items: center; justify-content: center;
+    padding: 24px;
+  }
+  .modal-overlay.open { display: flex; }
+  .modal {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    padding: 48px;
+    max-width: 540px;
+    width: 100%;
+    position: relative;
+    box-shadow: var(--shadow-lg);
+    animation: modalIn 0.3s ease;
+  }
+  @keyframes modalIn {
+    from { opacity: 0; transform: scale(0.95) translateY(20px); }
+    to { opacity: 1; transform: scale(1) translateY(0); }
+  }
+  .modal-close {
+    position: absolute; top: 20px; right: 20px;
+    width: 36px; height: 36px;
+    border-radius: 50%;
+    background: var(--gray-100);
+    display: flex; align-items: center; justify-content: center;
+    cursor: pointer;
+    font-size: 1.1rem;
+    color: var(--text-mid);
+    transition: var(--transition);
+    border: none;
+  }
+  .modal-close:hover { background: var(--blush); color: var(--white); }
+
+  /* ===== SCROLL ANIMATION ===== */
+  .fade-up {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+  .fade-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* ===== CMS PANEL ===== */
+  .cms-table { width: 100%; border-collapse: collapse; }
+  .cms-table th {
+    text-align: left;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-light);
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--gray-200);
+  }
+  .cms-table td {
+    padding: 14px 16px;
+    border-bottom: 1px solid var(--gray-100);
+    font-size: 0.88rem;
+    vertical-align: middle;
+  }
+  .cms-table tr:hover td { background: var(--gray-100); }
+  .cms-table img-thumb { width: 44px; height: 44px; border-radius: 6px; object-fit: cover; background: var(--blush-pale); }
+  .cms-actions { display: flex; gap: 8px; }
+  .cms-btn {
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 0.78rem;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    transition: var(--transition);
+    font-family: 'Jost', sans-serif;
+  }
+  .cms-btn-edit { background: var(--blush-pale); color: var(--sage); }
+  .cms-btn-edit:hover { background: var(--blush); color: var(--white); }
+  .cms-btn-delete { background: #FFEBEE; color: #C62828; }
+  .cms-btn-delete:hover { background: #C62828; color: var(--white); }
+
+  /* ===== USER DASHBOARD ===== */
+  .user-bookings { display: flex; flex-direction: column; gap: 16px; margin-top: 32px; }
+  .user-booking-card {
+    background: var(--white);
+    border-radius: var(--radius);
+    padding: 24px;
+    box-shadow: var(--shadow-sm);
+    display: flex; align-items: center; gap: 24px;
+    transition: var(--transition);
+  }
+  .user-booking-card:hover { box-shadow: var(--shadow-md); }
+  .ub-date {
+    text-align: center;
+    background: var(--blush-pale);
+    border-radius: 10px;
+    padding: 12px 18px;
+    min-width: 70px;
+    flex-shrink: 0;
+  }
+  .ub-day { font-family: 'Cormorant Garamond', serif; font-size: 2rem; font-weight: 500; color: var(--espresso); line-height: 1; }
+  .ub-month { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--blush); margin-top: 4px; }
+  .ub-info { flex: 1; }
+  .ub-service { font-weight: 600; color: var(--espresso); font-size: 0.95rem; }
+  .ub-time { font-size: 0.82rem; color: var(--text-light); margin-top: 4px; }
+  .ub-actions { display: flex; gap: 10px; }
+
+  /* ===== BLOG ===== */
+  .blog-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; margin-top: 48px; }
+  .blog-card {
+    background: var(--white);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+  }
+  .blog-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-md); }
+  .blog-thumb {
+    height: 200px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 2.5rem;
+  }
+  .blog-body { padding: 28px; }
+  .blog-cat { color: var(--blush); font-size: 0.75rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 10px; }
+  .blog-card h3 { font-size: 1.2rem; color: var(--espresso); margin-bottom: 10px; line-height: 1.4; }
+  .blog-card p { font-size: 0.88rem; color: var(--text-light); line-height: 1.7; }
+  .blog-meta { display: flex; align-items: center; gap: 12px; margin-top: 20px; font-size: 0.8rem; color: var(--text-light); }
+  .blog-meta-dot { width: 3px; height: 3px; border-radius: 50%; background: var(--gray-400); }
+
+  /* ===== RESPONSIVE ===== */
+  @media (max-width: 1100px) {
+    .grid-4 { grid-template-columns: repeat(2, 1fr); }
+    .footer-grid { grid-template-columns: 1fr 1fr; gap: 40px; }
+    .booking-layout { grid-template-columns: 1fr; }
+    .booking-summary { position: static; }
+    .dashboard-main { padding: 32px; }
+    .stats-row { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 900px) {
+    .grid-2, .grid-3, .pricing-cards, .team-grid, .testimonial-grid, .contact-layout { grid-template-columns: 1fr; }
+    .masonry-grid { columns: 2; }
+    .portfolio-grid { grid-template-columns: 1fr 1fr; }
+    .portfolio-item { grid-column: span 1 !important; grid-row: span 1 !important; }
+    .hero-stats { display: none; }
+    .nav-links, .nav-actions { display: none; }
+    .hamburger { display: flex; }
+    .blog-grid { grid-template-columns: 1fr 1fr; }
+    .sidebar { transform: translateX(-100%); }
+    .sidebar.open { transform: translateX(0); }
+    .dashboard-main { margin-left: 0; padding: 24px; }
+    .dash-grid { grid-template-columns: 1fr; }
+    .form-row { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 640px) {
+    .section { padding: 60px 0; }
+    .masonry-grid { columns: 1; }
+    .portfolio-grid { grid-template-columns: 1fr; }
+    .blog-grid { grid-template-columns: 1fr; }
+    .quick-action-grid { grid-template-columns: 1fr; }
+    .stats-row { grid-template-columns: 1fr 1fr; }
+    .auth-card { padding: 32px 24px; }
+    .modal { padding: 32px 24px; }
+    h1 { font-size: 2.2rem; }
+    h2 { font-size: 1.8rem; }
+    .hero-content { padding: 120px 0 80px; }
+    .footer-grid { grid-template-columns: 1fr; gap: 32px; }
+    .footer-bottom { flex-direction: column; gap: 12px; text-align: center; }
+    .user-booking-card { flex-direction: column; align-items: flex-start; }
+    .slots-grid { grid-template-columns: repeat(2, 1fr); }
+    .pricing-card.featured { transform: none; }
+    .booking-cta { padding: 80px 0; }
+    .hero-actions { flex-direction: column; }
+    .hero-actions .btn { width: 100%; justify-content: center; }
+    .cms-table { display: block; overflow-x: auto; }
+    .dashboard-layout { grid-template-columns: 1fr; }
+  }
+
+  /* ===== UTILITY ===== */
+  .text-center { text-align: center; }
+  .text-blush { color: var(--blush); }
+  .text-espresso { color: var(--espresso); }
+  .mb-8 { margin-bottom: 8px; }
+  .mb-16 { margin-bottom: 16px; }
+  .mb-24 { margin-bottom: 24px; }
+  .mb-32 { margin-bottom: 32px; }
+  .mt-16 { margin-top: 16px; }
+  .mt-32 { margin-top: 32px; }
+  .mt-48 { margin-top: 48px; }
+  .w-full { width: 100%; }
+  .divider { height: 1px; background: var(--gray-200); margin: 32px 0; }
+  .tag {
+    display: inline-block;
+    padding: 4px 14px;
+    border-radius: 50px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background: var(--blush-pale);
+    color: var(--sage);
+  }
+  .skip-link {
+    position: absolute;
+    top: -40px; left: 8px;
+    background: var(--espresso);
+    color: var(--white);
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    z-index: 10000;
+    transition: top 0.2s;
+  }
+  .skip-link:focus { top: 8px; }
+
+  /* ===== ICON SYSTEM (replaces emoji) ===== */
+  .icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .icon svg {
+    width: 1em;
+    height: 1em;
+    stroke: currentColor;
+    fill: none;
+    stroke-width: 1.6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  .icon-solid svg { fill: currentColor; stroke: none; }
+  .icon-lg { font-size: 2.4rem; }
+  .icon-xl { font-size: 3rem; }
+  .icon-md { font-size: 1.4rem; }
+  .icon-white { color: #fff; }
+  .icon-blush { color: var(--blush); }
+  .icon-espresso { color: var(--espresso); }
+</style>
+</head>
+<body>
+
+<!-- Accessibility skip link -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<!-- ===== NAVIGATION ===== -->
+<nav class="nav" id="navbar" role="navigation" aria-label="Main navigation">
+  <div class="container">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#" onclick="navigate('home')" aria-label="Framed & Motion Studio home">
+        Framed <span>&</span> Motion
+      </a>
+      <ul class="nav-links" role="menubar">
+        <li role="none"><a href="#" onclick="navigate('home')" class="active" role="menuitem">Home</a></li>
+        <li role="none"><a href="#" onclick="navigate('portfolio')" role="menuitem">Portfolio</a></li>
+        <li role="none"><a href="#" onclick="navigate('services')" role="menuitem">Services</a></li>
+        <li role="none"><a href="#" onclick="navigate('booking')" role="menuitem">Book</a></li>
+        <li role="none"><a href="#" onclick="navigate('about')" role="menuitem">About</a></li>
+        <li role="none"><a href="#" onclick="navigate('contact')" role="menuitem">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="btn btn-outline btn-sm" onclick="navigate('login')" aria-label="Login">Login</button>
+        <button class="btn btn-primary btn-sm" onclick="navigate('booking')" aria-label="Book a session">Book Now</button>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu" onclick="toggleMobile()">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobile-menu" role="dialog" aria-label="Mobile navigation" aria-modal="true">
+  <button class="mobile-close" onclick="toggleMobile()" aria-label="Close menu"><span class="icon"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M5 5l14 14M19 5L5 19"/></svg></span></button>
+  <a href="#" onclick="navigate('home');toggleMobile()">Home</a>
+  <a href="#" onclick="navigate('portfolio');toggleMobile()">Portfolio</a>
+  <a href="#" onclick="navigate('services');toggleMobile()">Services</a>
+  <a href="#" onclick="navigate('booking');toggleMobile()">Book a Shoot</a>
+  <a href="#" onclick="navigate('about');toggleMobile()">About</a>
+  <a href="#" onclick="navigate('contact');toggleMobile()">Contact</a>
+  <button class="btn btn-primary" onclick="navigate('login');toggleMobile()">Login / Register</button>
+</div>
+
+<!-- ===== TOAST ===== -->
+<div class="toast success" id="toast" role="alert" aria-live="polite">
+  <span class="toast-icon"></span>
+  <span id="toast-msg">Action completed!</span>
+  <button class="toast-close" onclick="closeToast()" aria-label="Close notification"><span class="icon"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M5 5l14 14M19 5L5 19"/></svg></span></button>
+</div>
+
+<!-- ===== BOOKING MODAL ===== -->
+<div class="modal-overlay" id="booking-modal" role="dialog" aria-modal="true" aria-label="Booking confirmation">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal('booking-modal')" aria-label="Close"><span class="icon"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M5 5l14 14M19 5L5 19"/></svg></span></button>
+    <div style="text-align:center;margin-bottom:24px;font-size:3rem"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="5" width="18" height="16" rx="1.5"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></span></div>
+    <h3 style="text-align:center;color:var(--espresso);margin-bottom:8px">Booking Confirmed!</h3>
+    <p style="text-align:center;color:var(--text-light);margin-bottom:28px;font-size:0.95rem;line-height:1.7">Your session has been booked and a confirmation email has been sent to your inbox. We've also synced this to Google Calendar.</p>
+    <div style="background:var(--cream);border-radius:12px;padding:20px;margin-bottom:24px">
+      <div class="summary-row"><span class="label">Service</span><span class="value" id="confirm-service">Portrait Session</span></div>
+      <div class="summary-row"><span class="label">Date & Time</span><span class="value" id="confirm-datetime">—</span></div>
+      <div class="summary-row"><span class="label">Confirmation #</span><span class="value" id="confirm-id">#FM2024001</span></div>
+    </div>
+    <button class="btn btn-primary w-full" onclick="closeModal('booking-modal');navigate('dashboard-user')">View My Bookings</button>
+  </div>
+</div>
+
+<!-- ===== PAGES ===== -->
+<main id="main-content">
+
+<!-- ========== HOME PAGE ========== -->
+<div id="page-home" class="page active">
+
+  <!-- Hero -->
+  <section class="hero" aria-label="Hero section">
+    <div class="hero-bg"></div>
+    <div class="hero-pattern"></div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-eyebrow" role="text">
+          <span style="width:6px;height:6px;border-radius:50%;background:var(--blush);display:inline-block"></span>
+          Photography & Videography Studio
+        </div>
+        <h1 class="hero-title">
+          Where Every<br><em>Frame</em> Tells<br>a Story
+        </h1>
+        <p class="hero-subtitle">
+          We craft visual narratives that capture the essence of your most precious moments — from intimate portraits to cinematic videos.
+        </p>
+        <div class="hero-actions">
+          <button class="btn btn-blush" onclick="navigate('booking')">Book Your Session</button>
+          <button class="btn btn-ghost" onclick="navigate('portfolio')">View Portfolio</button>
+        </div>
+      </div>
+      <div class="hero-stats" aria-label="Studio statistics">
+        <div class="stat"><div class="stat-num">50+</div><div class="stat-label">Sessions</div></div>
+        <div class="stat"><div class="stat-num">+1</div><div class="stat-label">Year</div></div>
+        <div class="stat"><div class="stat-num">98%</div><div class="stat-label">Happy Clients</div></div>
+      </div>
+    </div>
+    <div class="hero-scroll" aria-hidden="true">Scroll</div>
+  </section>
+
+  <!-- Services Preview -->
+  <section class="section services-preview" aria-label="Services overview">
+    <div class="container">
+      <div class="section-label"><span>What We Offer</span></div>
+      <div class="grid-2" style="margin-bottom:52px;align-items:end">
+        <h2 class="text-espresso">Crafting Visual <em style="font-family:'Dancing Script',cursive;color:var(--blush)">Excellence</em></h2>
+        <div>
+          <p style="color:var(--text-light);line-height:1.8;font-size:1rem;margin-bottom:20px">From intimate portraits to sweeping cinematic productions, we bring your vision to life with artistry and precision.</p>
+          <button class="btn btn-outline btn-sm" onclick="navigate('services')">View All Services</button>
+        </div>
+      </div>
+      <div class="grid-3">
+        <article class="service-card fade-up">
+          <div class="service-card-img">
+            <div class="placeholder-img" style="background:linear-gradient(135deg,#E8D0C4,#C9A99A)"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 8h3l2-3h6l2 3h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/><circle cx="12" cy="13" r="3.5"/></svg></span></div>
+          </div>
+          <div class="service-card-body">
+            <span class="service-tag">Photography</span>
+            <h3>Portrait Sessions</h3>
+            <p>Intimate, expressive portraits that capture the true essence of your personality in every frame.</p>
+          </div>
+          <div class="service-card-footer">
+            <div class="service-price">Mur 1,500 <small>/ as from</small></div>
+            <button class="btn btn-blush btn-sm" onclick="navigate('booking')">Book</button>
+          </div>
+        </article>
+        <article class="service-card fade-up" style="transition-delay:0.1s">
+          <div class="service-card-img">
+            <div class="placeholder-img" style="background:linear-gradient(135deg,#C9A99A,#8B7355)"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="15" r="4.5"/><circle cx="16" cy="15" r="4.5"/><path d="M9 11.5L12 4l3 7.5"/></svg></span></div>
+          </div>
+          <div class="service-card-body">
+            <span class="service-tag">Photography</span>
+            <h3>Wedding Coverage</h3>
+            <p>Full-day wedding photography with a documentary approach — candid, timeless, and deeply personal.</p>
+          </div>
+          <div class="service-card-footer">
+            <div class="service-price">Mur 9,900 <small>/ as from</small></div>
+            <button class="btn btn-blush btn-sm" onclick="navigate('booking')">Book</button>
+          </div>
+        </article>
+        <article class="service-card fade-up" style="transition-delay:0.2s">
+          <div class="service-card-img">
+            <div class="placeholder-img" style="background:linear-gradient(135deg,#8B7355,#4A2E22)"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="4" width="18" height="16" rx="1.5"/><path d="M3 9h18M3 15h18M8 4v16M16 4v16"/></svg></span></div>
+          </div>
+          <div class="service-card-body">
+            <span class="service-tag">Videography</span>
+            <h3>Cinematic Films</h3>
+            <p>Breathtaking 4K cinematic videos with professional color grading and emotive soundscaping.</p>
+          </div>
+          <div class="service-card-footer">
+            <div class="service-price">MUR 5,900 <small>/ project</small></div>
+            <button class="btn btn-blush btn-sm" onclick="navigate('booking')">Book</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+<!-- Portfolio Preview -->
+<section class="section" style="background:var(--cream)" aria-label="Portfolio preview">
+  <div class="container">
+    <div class="section-label"><span>Our Work</span></div>
+    <div class="grid-2" style="margin-bottom:0;align-items:end">
+      <h2>A Glimpse of Our <em style="font-family:'Dancing Script',cursive;color:var(--blush)">Portfolio</em></h2>
+      <div style="text-align:right">
+        <button class="btn btn-outline btn-sm" onclick="navigate('portfolio')">Full Gallery →</button>
+      </div>
+    </div>
+    <div class="portfolio-grid" role="list" aria-label="Portfolio images">
+
+      <!-- athletic shoot -->
+      <div class="portfolio-item fade-up" role="listitem" tabindex="0" aria-label="athletic photography - Paid Work">
+        <div class="portfolio-placeholder" style="min-height:456px">
+          <img src="athletic-shoot-web7.jpg" alt="Athletic portrait" style="width:100%; height:100%; object-fit:cover;">
+        </div>
+        <div class="portfolio-overlay">
+          <div class="portfolio-overlay-text"><h4>Athletic</h4><p>Portrait · Outdoor</p></div>
+        </div>
+      </div>
+
+      <!-- Engagement confirm -->
+      <div class="portfolio-item fade-up" role="listitem" tabindex="0" aria-label="Engagement - Engagement Ceremony">
+        <div class="portfolio-placeholder" style="min-height:220px">
+          <img src="engagement-ceremony-web9.png" alt="Engagement ceremony" style="width:100%; height:100%; object-fit:cover;">
+        </div>
+        <div class="portfolio-overlay">
+          <div class="portfolio-overlay-text"><h4>Engagement Photoshoot</h4><p>Engagement · Outdoor</p></div>
+        </div>
+      </div>
+
+      <!-- Candy -->
+      <div class="portfolio-item fade-up" role="listitem" tabindex="0" aria-label="Candy advertise">
+        <div class="portfolio-placeholder" style="min-height:220px">
+          <img src="candy-promo-web3.jpg" alt="Fashion editorial" style="width:100%; height:100%; object-fit:cover;">
+        </div>
+        <div class="portfolio-overlay">
+          <div class="portfolio-overlay-text"><h4>Studio Shooting</h4><p>Candy · Studio</p></div>
+        </div>
+      </div>
+
+      <!-- Fancy fair -->
+      <div class="portfolio-item fade-up" role="listitem" tabindex="0" aria-label="Family Fun Day">
+        <div class="portfolio-placeholder" style="min-height:220px">
+          <img src="Fancy-fair-disco-web8.jpg" alt="Family Fun Day" style="width:100%; height:100%; object-fit:cover;">
+        </div>
+        <div class="portfolio-overlay">
+          <div class="portfolio-overlay-text"><h4>Family Fun Day</h4><p>Accredited · Outdoor</p></div>
+        </div>
+      </div>
+
+      <!-- Family Photo -->
+      <div class="portfolio-item fade-up" role="listitem" tabindex="0" aria-label="Family Photoshoot">
+        <div class="portfolio-placeholder" style="min-height:220px">
+          <img src="sea-shooting-web5.jpg" alt="Family Photoshoot" style="width:100%; height:100%; object-fit:cover;">
+        </div>
+        <div class="portfolio-overlay">
+          <div class="portfolio-overlay-text"><h4>Family Photoshoot</h4><p>Family · Photoshoot</p></div>
+        </div>
+      </div>
+
+      <!-- Family Legacy -->
+      <div class="portfolio-item fade-up" role="listitem" tabindex="0" aria-label="Family portrait">
+        <div class="portfolio-placeholder" style="min-height:220px">
+          <img src="image/family-legacy.jpg" alt="Family portrait" style="width:100%; height:100%; object-fit:cover;">
+        </div>
+        <div class="portfolio-overlay">
+          <div class="image/portfolio-overlay-text"><h4>Family Legacy</h4><p>Family · Outdoor</p></div>
+        </div>
+      </div>
+
+      <!-- Engagement -->
+      <div class="portfolio-item fade-up" role="listitem" tabindex="0" aria-label="Engagement photos">
+        <div class="portfolio-placeholder" style="min-height:220px">
+          <img src="image/engagement.jpg" alt="Engagement photos" style="width:100%; height:100%; object-fit:cover;">
+        </div>
+        <div class="portfolio-overlay">
+          <div class="portfolio-overlay-text"><h4>Engagement</h4><p>Couple · Garden</p></div>
+        </div>
+      </div>
+
+      <!-- Music Visual -->
+      <div class="portfolio-item fade-up" role="listitem" tabindex="0" aria-label="Music video">
+        <div class="portfolio-placeholder" style="min-height:220px">
+          <img src="image/music-visual.jpg" alt="Music video" style="width:100%; height:100%; object-fit:cover;">
+        </div>
+        <div class="portfolio-overlay">
+          <div class="portfolio-overlay-text"><h4>Music Visual</h4><p>Music Video · Creative</p></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- About Strip -->
+  <div class="about-strip" aria-label="About the studio">
+    <div class="container">
+      <div class="grid-2">
+        <div>
+          <div class="section-label" style="--blush:#fff"><span style="color:rgba(255,255,255,0.7)">Our Story</span></div>
+          <h2>Photography Is<br>Our <em style="font-family:'Dancing Script',cursive">Passion</em></h2>
+          <p>Founded with a deep love for storytelling, Framed & Motion Studio has been transforming ordinary moments into extraordinary visual narratives for over a year.</p>
+          <button class="btn btn-ghost mt-32" onclick="navigate('about')">Meet the Team</button>
+        </div>
+        <div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px">
+            <div style="background:rgba(255,255,255,0.12);border-radius:16px;padding:28px;text-align:center">
+              <div style="font-family:'Cormorant Garamond',serif;font-size:3rem;font-weight:300;color:#fff;line-height:1">1+</div>
+              <div style="color:rgba(255,255,255,0.7);font-size:0.82rem;margin-top:6px;letter-spacing:0.08em;text-transform:uppercase">Years Experience</div>
+            </div>
+            <div style="background:rgba(255,255,255,0.12);border-radius:16px;padding:28px;text-align:center">
+              <div style="font-family:'Cormorant Garamond',serif;font-size:3rem;font-weight:300;color:#fff;line-height:1">50+</div>
+              <div style="color:rgba(255,255,255,0.7);font-size:0.82rem;margin-top:6px;letter-spacing:0.08em;text-transform:uppercase">Happy Clients</div>
+            </div>
+            <div style="background:rgba(255,255,255,0.12);border-radius:16px;padding:28px;text-align:center">
+              <div style="font-family:'Cormorant Garamond',serif;font-size:3rem;font-weight:300;color:#fff;line-height:1">98%</div>
+              <div style="color:rgba(255,255,255,0.7);font-size:0.82rem;margin-top:6px;letter-spacing:0.08em;text-transform:uppercase">Happy Clients</div>
+            </div>
+            <div style="background:rgba(255,255,255,0.12);border-radius:16px;padding:28px;text-align:center">
+              <div style="font-family:'Cormorant Garamond',serif;font-size:3rem;font-weight:300;color:#fff;line-height:1">100%</div>
+              <div style="color:rgba(255,255,255,0.7);font-size:0.82rem;margin-top:6px;letter-spacing:0.08em;text-transform:uppercase">Hybrid Location</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Testimonials -->
+  <section class="section testimonials" aria-label="Client testimonials">
+    <div class="container">
+      <div class="section-label"><span>Testimonials</span></div>
+      <h2 class="text-espresso" style="margin-bottom:8px">What Our Clients <em style="font-family:'Dancing Script',cursive;color:var(--blush)">Say</em></h2>
+      <div class="testimonial-grid">
+        <article class="testimonial-card fade-up">
+          <div class="stars" aria-label="5 stars"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 3l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L12 16.9 6.4 20l1.4-6.2-4.8-4.3 6.4-.6L12 3z"/></svg></span><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 3l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L12 16.9 6.4 20l1.4-6.2-4.8-4.3 6.4-.6L12 3z"/></svg></span><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 3l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L12 16.9 6.4 20l1.4-6.2-4.8-4.3 6.4-.6L12 3z"/></svg></span><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 3l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L12 16.9 6.4 20l1.4-6.2-4.8-4.3 6.4-.6L12 3z"/></svg></span><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 3l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L12 16.9 6.4 20l1.4-6.2-4.8-4.3 6.4-.6L12 3z"/></svg></span></div>
+          <p class="testimonial-text">"The most incredible experience! Our wedding photos are beyond anything we imagined. The team captured every emotion so beautifully."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" aria-hidden="true">S</div>
+            <div><div class="testimonial-name">Sarah & James</div><div class="testimonial-role">Wedding Clients · 2024</div></div>
+          </div>
+        </article>
+        <article class="testimonial-card fade-up" style="transition-delay:0.1s">
+          <div class="stars" aria-label="5 stars"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 3l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L12 16.9 6.4 20l1.4-6.2-4.8-4.3 6.4-.6L12 3z"/></svg></span><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 3l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L12 16.9 6.4 20l1.4-6.2-4.8-4.3 6.4-.6L12 3z"/></svg></span><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 3l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L12 16.9 6.4 20l1.4-6.2-4.8-4.3 6.4-.6L12 3z"/></svg></span><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 3l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L12 16.9 6.4 20l1.4-6.2-4.8-4.3 6.4-.6L12 3z"/></svg></span><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 3l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L12 16.9 6.4 20l1.4-6.2-4.8-4.3 6.4-.6L12 3z"/></svg></span></div>
+          <p class="testimonial-text">"Our brand film completely elevated how customers perceive us. The cinematic quality is absolutely stunning. Highly recommend!"</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" aria-hidden="true">M</div>
+            <div><div class="testimonial-name">Marcus T.</div><div class="testimonial-role">Brand Client · 2024</div></div>
+          </div>
+        </article>
+        <article class="testimonial-card fade-up" style="transition-delay:0.2s">
+          <div class="stars" aria-label="5 stars"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 3l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L12 16.9 6.4 20l1.4-6.2-4.8-4.3 6.4-.6L12 3z"/></svg></span><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 3l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L12 16.9 6.4 20l1.4-6.2-4.8-4.3 6.4-.6L12 3z"/></svg></span><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 3l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L12 16.9 6.4 20l1.4-6.2-4.8-4.3 6.4-.6L12 3z"/></svg></span><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 3l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L12 16.9 6.4 20l1.4-6.2-4.8-4.3 6.4-.6L12 3z"/></svg></span><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 3l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L12 16.9 6.4 20l1.4-6.2-4.8-4.3 6.4-.6L12 3z"/></svg></span></div>
+          <p class="testimonial-text">"I've never felt so comfortable during a photoshoot. The portraits came out absolutely stunning — truly captured my personality."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" aria-hidden="true">A</div>
+            <div><div class="testimonial-name">Amara L.</div><div class="testimonial-role">Portrait Client · 2024</div></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Preview -->
+  <section class="section" style="background:var(--ivory)" aria-label="Latest blog posts">
+    <div class="container">
+      <div class="section-label"><span>From the Blog</span></div>
+      <div class="grid-2" style="align-items:end;margin-bottom:0">
+        <h2>Tips, Stories & <em style="font-family:'Dancing Script',cursive;color:var(--blush)">Inspiration</em></h2>
+        <div style="text-align:right"><button class="btn btn-outline btn-sm">All Posts →</button></div>
+      </div>
+      <div class="blog-grid">
+        <article class="blog-card fade-up">
+          <div class="blog-thumb" style="background:linear-gradient(135deg,#E8D0C4,#C9A99A)"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 8h3l2-3h6l2 3h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/><circle cx="12" cy="13" r="3.5"/></svg></span></div>
+          <div class="blog-body">
+            <div class="blog-cat">Photography Tips</div>
+            <h3>How to Prepare for Your Portrait Session</h3>
+            <p>Everything you need to know before stepping in front of our lens — wardrobe, mindset, and more.</p>
+            <div class="blog-meta"><span>June 10, 2024</span><span class="blog-meta-dot"></span><span>5 min read</span></div>
+          </div>
+        </article>
+        <article class="blog-card fade-up" style="transition-delay:0.1s">
+          <div class="blog-thumb" style="background:linear-gradient(135deg,#C9A99A,#8B7355)"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="15" r="4.5"/><circle cx="16" cy="15" r="4.5"/><path d="M9 11.5L12 4l3 7.5"/></svg></span></div>
+          <div class="blog-body">
+            <div class="blog-cat">Wedding</div>
+            <h3>The Golden Hour: Timing Your Wedding Shoot</h3>
+            <p>Why the hour before sunset produces the most magical and romantic wedding photographs of the day.</p>
+            <div class="blog-meta"><span>May 28, 2024</span><span class="blog-meta-dot"></span><span>7 min read</span></div>
+          </div>
+        </article>
+        <article class="blog-card fade-up" style="transition-delay:0.2s">
+          <div class="blog-thumb" style="background:linear-gradient(135deg,#4A2E22,#8B7355)"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="4" width="18" height="16" rx="1.5"/><path d="M3 9h18M3 15h18M8 4v16M16 4v16"/></svg></span></div>
+          <div class="blog-body">
+            <div class="blog-cat">Videography</div>
+            <h3>Behind the Lens: Creating a Brand Film</h3>
+            <p>A behind-the-scenes look at how we approach cinematic storytelling for brands and businesses.</p>
+            <div class="blog-meta"><span>May 15, 2024</span><span class="blog-meta-dot"></span><span>6 min read</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking CTA -->
+  <section class="booking-cta" aria-label="Book a session">
+    <div class="container">
+      <div class="section-label" style="justify-content:center"><span style="color:var(--blush-light)">Ready to Begin?</span></div>
+      <h2>Let's Create Something <em style="font-family:'Dancing Script',cursive">Beautiful</em></h2>
+      <p>Every great photograph starts with a conversation. Book a session today and let's bring your vision to life.</p>
+      <button class="btn btn-blush" onclick="navigate('booking')">Book Your Session</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="script">Framed & Motion</span>
+          <p>A creative studio dedicated to capturing timeless moments through the art of photography and videography.</p>
+          <div class="footer-social">
+            <button class="social-btn" aria-label="Instagram"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 8h3l2-3h6l2 3h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/><circle cx="12" cy="13" r="3.5"/></svg></span></button>
+            <button class="social-btn" aria-label="Facebook">📘</button>
+            <button class="social-btn" aria-label="YouTube">▶️</button>
+            <button class="social-btn" aria-label="Pinterest">📌</button>
+          </div>
+        </div>
+        <div>
+          <div class="footer-heading">Navigate</div>
+          <ul class="footer-links">
+            <li><a onclick="navigate('home')">Home</a></li>
+            <li><a onclick="navigate('portfolio')">Portfolio</a></li>
+            <li><a onclick="navigate('services')">Services & Pricing</a></li>
+            <li><a onclick="navigate('booking')">Book a Session</a></li>
+            <li><a onclick="navigate('about')">About Us</a></li>
+            <li><a onclick="navigate('contact')">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Services</div>
+          <ul class="footer-links">
+            <li><a>Portrait Sessions</a></li>
+            <li><a>Wedding Photography</a></li>
+            <li><a>Family Portraits</a></li>
+            <li><a>Newborn Photography</a></li>
+            <li><a>Brand & Commercial</a></li>
+            <li><a>Cinematic Films</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Newsletter</div>
+          <p style="font-size:0.88rem;margin-bottom:16px;line-height:1.7">Get photography tips, studio news, and exclusive offers delivered to your inbox.</p>
+          <div class="footer-newsletter">
+            <input type="email" placeholder="Your email address" aria-label="Email for newsletter">
+            <button class="btn btn-blush btn-sm w-full" onclick="showToast('You\'re subscribed! Welcome to the Framed & Motion community 🌸')">Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 Framed & Motion Studio. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a>Privacy Policy</a>
+          <a>Terms of Service</a>
+          <a>Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<!-- ========== PORTFOLIO PAGE ========== -->
+<div id="page-portfolio" class="page">
+  <div class="page-header">
+    <div class="container">
+      <div class="page-header-content">
+        <nav class="breadcrumb" aria-label="Breadcrumb"><a onclick="navigate('home')">Home</a><span>/</span><span class="current">Portfolio</span></nav>
+        <h1>Our <em style="font-family:'Dancing Script',cursive">Portfolio</em></h1>
+        <p>A curated collection of our finest work — where light, emotion, and artistry converge.</p>
+      </div>
+    </div>
+  </div>
+  <section class="section" style="background:var(--ivory)">
+    <div class="container">
+      <div class="portfolio-filters" role="group" aria-label="Portfolio filters">
+        <button class="filter-btn active" onclick="filterPortfolio(this,'all')">All Work</button>
+        <button class="filter-btn" onclick="filterPortfolio(this,'portrait')">Portraits</button>
+        <button class="filter-btn" onclick="filterPortfolio(this,'wedding')">Weddings</button>
+        <button class="filter-btn" onclick="filterPortfolio(this,'family')">Family</button>
+        <button class="filter-btn" onclick="filterPortfolio(this,'commercial')">Commercial</button>
+        <button class="filter-btn" onclick="filterPortfolio(this,'motion')">Motion Video</button>
+        <button class="filter-btn" onclick="filterPortfolio(this,'newborn')">Newborn</button>
+      </div>
+      <div class="masonry-grid" id="portfolio-masonry" role="list" aria-label="Portfolio gallery">
+        <div class="masonry-item" data-cat="portrait" role="listitem" tabindex="0"><div class="masonry-placeholder" style="height:320px;background:linear-gradient(135deg,#E8D0C4,#C9A99A)"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 8h3l2-3h6l2 3h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/><circle cx="12" cy="13" r="3.5"/></svg></span></div><div class="masonry-item-overlay"><div><h4>Elena R.</h4><p>Portrait · Studio · 2024</p></div></div></div>
+        <div class="masonry-item" data-cat="wedding" role="listitem" tabindex="0"><div class="masonry-placeholder" style="height:220px;background:linear-gradient(135deg,#C9A99A,#8B7355)"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 20.5s-7.5-4.6-9.7-9C.8 8 2 4.5 5.4 3.7 7.7 3.1 9.9 4.2 12 6.7c2.1-2.5 4.3-3.6 6.6-3 3.4.8 4.6 4.3 3.1 7.8-2.2 4.4-9.7 9-9.7 9z"/></svg></span></div><div class="masonry-item-overlay"><div><h4>The Williams Wedding</h4><p>Wedding · Outdoor · 2024</p></div></div></div>
+        <div class="masonry-item" data-cat="motion" role="listitem" tabindex="0"><div class="masonry-placeholder" style="height:260px;background:linear-gradient(135deg,#4A2E22,#2C1810)"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="4" width="18" height="16" rx="1.5"/><path d="M3 9h18M3 15h18M8 4v16M16 4v16"/></svg></span></div><div class="masonry-item-overlay"><div><h4>Luminary Brand Film</h4><p>Commercial Motion · 2024</p></div></div></div>
+        <div class="masonry-item" data-cat="family" role="listitem" tabindex="0"><div class="masonry-placeholder" style="height:280px;background:linear-gradient(135deg,#B8A48A,#E8D0C4)"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><circle cx="17" cy="9" r="2.6"/><path d="M15 14.2c2.5.4 4.5 2.4 5 5.8"/></svg></span></div><div class="masonry-item-overlay"><div><h4>The Johnson Family</h4><p>Family · Park · 2024</p></div></div></div>
+        <div class="masonry-item" data-cat="portrait" role="listitem" tabindex="0"><div class="masonry-placeholder" style="height:200px;background:linear-gradient(135deg,#8B7355,#C9A99A)"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l1.8 5.7L19.5 9l-5.7 1.8L12 16.5l-1.8-5.7L4.5 9l5.7-1.3L12 2z"/></svg></span></div><div class="masonry-item-overlay"><div><h4>Editorial Series</h4><p>Fashion · Studio · 2024</p></div></div></div>
+        <div class="masonry-item" data-cat="newborn" role="listitem" tabindex="0"><div class="masonry-placeholder" style="height:300px;background:linear-gradient(135deg,#F2E6DF,#E8D0C4)"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="8" r="4"/><path d="M8 8a4 4 0 0 0 8 0"/><path d="M6 20c0-4 2.7-6 6-6s6 2 6 6"/></svg></span></div><div class="masonry-item-overlay"><div><h4>Baby Aria</h4><p>Newborn · Studio · 2024</p></div></div></div>
+        <div class="masonry-item" data-cat="wedding" role="listitem" tabindex="0"><div class="masonry-placeholder" style="height:240px;background:linear-gradient(135deg,#C9A99A,#F2E6DF)"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="15" r="4.5"/><circle cx="16" cy="15" r="4.5"/><path d="M9 11.5L12 4l3 7.5"/></svg></span></div><div class="masonry-item-overlay"><div><h4>Garden Ceremony</h4><p>Wedding · Garden · 2024</p></div></div></div>
+        <div class="masonry-item" data-cat="commercial" role="listitem" tabindex="0"><div class="masonry-placeholder" style="height:190px;background:linear-gradient(135deg,#2C1810,#8B7355)"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M8 7h2M14 7h2M8 11h2M14 11h2M8 15h2M14 15h2M10 21v-4h4v4"/></svg></span></div><div class="masonry-item-overlay"><div><h4>Corporate Headshots</h4><p>Commercial · Studio · 2024</p></div></div></div>
+        <div class="masonry-item" data-cat="portrait" role="listitem" tabindex="0"><div class="masonry-placeholder" style="height:340px;background:linear-gradient(135deg,#E8D0C4,#8B7355)"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 4v3M4.2 10.2l2.1 2.1M19.8 10.2l-2.1 2.1M2 17h20M6 17a6 6 0 0 1 12 0"/></svg></span></div><div class="masonry-item-overlay"><div><h4>Golden Hour Session</h4><p>Portrait · Outdoor · 2024</p></div></div></div>
+        <div class="masonry-item" data-cat="family" role="listitem" tabindex="0"><div class="masonry-placeholder" style="height:220px;background:linear-gradient(135deg,#B8A48A,#C9A99A)"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11L12 4l8 7"/><path d="M6 10v10h12V10"/><path d="M10 20v-5h4v5"/></svg></span></div><div class="masonry-item-overlay"><div><h4>Home & Hearth</h4><p>Family · Lifestyle · 2024</p></div></div></div>
+        <div class="masonry-item" data-cat="motion" role="listitem" tabindex="0"><div class="masonry-placeholder" style="height:280px;background:linear-gradient(135deg,#8B7355,#4A2E22)"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 18V5l11-2v13"/><circle cx="6" cy="18" r="2.5"/><circle cx="17" cy="16" r="2.5"/></svg></span></div><div class="masonry-item-overlay"><div><h4>Music Video</h4><p>Motion · Creative · 2024</p></div></div></div>
+        <div class="masonry-item" data-cat="commercial" role="listitem" tabindex="0"><div class="masonry-placeholder" style="height:250px;background:linear-gradient(135deg,#4A2E22,#C9A99A)"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6 8h12l-1 12H7L6 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg></span></div><div class="masonry-item-overlay"><div><h4>Product Launch</h4><p>Commercial · Studio · 2024</p></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-bottom" style="border-top:1px solid rgba(255,255,255,0.08);padding:24px 0">
+        <p>© 2024 Framed & Motion Studio. All rights reserved.</p>
+        <button class="btn btn-blush btn-sm" onclick="navigate('booking')">Book a Session</button>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<!-- ========== SERVICES PAGE ========== -->
+<div id="page-services" class="page">
+  <div class="page-header">
+    <div class="container">
+      <div class="page-header-content">
+        <nav class="breadcrumb" aria-label="Breadcrumb"><a onclick="navigate('home')">Home</a><span>/</span><span class="current">Services & Pricing</span></nav>
+        <h1>Services & <em style="font-family:'Dancing Script',cursive">Pricing</em></h1>
+        <p>Transparent pricing with no hidden fees. Every package is crafted to deliver exceptional value.</p>
+      </div>
+    </div>
+  </div>
+  <section class="section" style="background:var(--ivory)">
+    <div class="container">
+      <!-- Photography Section -->
+      <div class="section-label"><span>Photography</span></div>
+      <h2 class="text-center mb-32" style="margin-bottom:16px">Photography <em style="font-family:'Dancing Script',cursive;color:var(--blush)">Packages</em></h2>
+      <div class="pricing-toggle" role="group" aria-label="Billing period toggle">
+        <span class="toggle-label">Per Session</span>
+        <div class="toggle" id="billing-toggle" role="switch" aria-checked="false" tabindex="0" onclick="toggleBilling()" onkeydown="if(event.key==='Enter'||event.key===' ')toggleBilling()"></div>
+        <span class="toggle-label">Packages <span class="tag">Save 20%</span></span>
+      </div>
+      <div class="pricing-cards">
+        <div class="pricing-card fade-up">
+          <h3>Essential</h3>
+          <p style="color:var(--text-light);font-size:0.9rem">Perfect for individuals and small families</p>
+          <div class="price-num" data-session="$280" data-package="$224">$280 <small>/ session</small></div>
+          <div class="pricing-features">
+            <div class="pricing-feature">2-hour session</div>
+            <div class="pricing-feature">1 location</div>
+            <div class="pricing-feature">40+ edited digital images</div>
+            <div class="pricing-feature">Private online gallery</div>
+            <div class="pricing-feature">High-res downloads</div>
+          </div>
+          <button class="btn btn-outline w-full" onclick="navigate('booking')">Book Now</button>
+        </div>
+        <div class="pricing-card featured fade-up" style="transition-delay:0.1s">
+          <div class="popular-badge">Most Popular</div>
+          <h3>Signature</h3>
+          <p style="opacity:0.7;font-size:0.9rem">Our most comprehensive photography experience</p>
+          <div class="price-num" data-session="$580" data-package="$464">$580 <small>/ session</small></div>
+          <div class="pricing-features">
+            <div class="pricing-feature">4-hour session</div>
+            <div class="pricing-feature">2 locations</div>
+            <div class="pricing-feature">80+ edited digital images</div>
+            <div class="pricing-feature">Private online gallery</div>
+            <div class="pricing-feature">High-res downloads</div>
+            <div class="pricing-feature">1 premium print (11×14)</div>
+            <div class="pricing-feature">Rush 48h turnaround</div>
+          </div>
+          <button class="btn btn-blush w-full" onclick="navigate('booking')">Book Now</button>
+        </div>
+        <div class="pricing-card fade-up" style="transition-delay:0.2s">
+          <h3>Elite</h3>
+          <p style="color:var(--text-light);font-size:0.9rem">For brands, events, and luxury productions</p>
+          <div class="price-num" data-session="$1,200" data-package="$960">$1,200 <small>/ session</small></div>
+          <div class="pricing-features">
+            <div class="pricing-feature">Full-day (8h) session</div>
+            <div class="pricing-feature">Unlimited locations</div>
+            <div class="pricing-feature">200+ edited images</div>
+            <div class="pricing-feature">Private online gallery</div>
+            <div class="pricing-feature">Priority 24h turnaround</div>
+            <div class="pricing-feature">Fine-art prints package</div>
+            <div class="pricing-feature">Commercial license</div>
+          </div>
+          <button class="btn btn-outline w-full" onclick="navigate('booking')">Book Now</button>
+        </div>
+      </div>
+
+      <div class="divider" style="margin:80px 0 60px"></div>
+
+      <!-- Videography Section -->
+      <div class="section-label"><span>Videography</span></div>
+      <h2 class="text-center mb-32" style="margin-bottom:48px"> Videography <em style="font-family:'Dancing Script',cursive;color:var(--blush)">Packages</em></h2>
+      <div class="pricing-cards">
+        <div class="pricing-card fade-up">
+          <h3>Short Film</h3>
+          <p style="color:var(--text-light);font-size:0.9rem">Ideal for events and personal films</p>
+          <div class="price-num">$800 <small>/ project</small></div>
+          <div class="pricing-features">
+            <div class="pricing-feature">Up to 3-minute film</div>
+            <div class="pricing-feature">4K resolution</div>
+            <div class="pricing-feature">Color grading</div>
+            <div class="pricing-feature">Licensed music</div>
+            <div class="pricing-feature">1 revision round</div>
+          </div>
+          <button class="btn btn-outline w-full" onclick="navigate('booking')">Book Now</button>
+        </div>
+        <div class="pricing-card featured fade-up" style="transition-delay:0.1s">
+          <div class="popular-badge">Most Popular</div>
+          <h3>Cinematic</h3>
+          <p style="opacity:0.7;font-size:0.9rem">Wedding films and creative productions</p>
+          <div class="price-num">$2,400 <small>/ project</small></div>
+          <div class="pricing-features">
+            <div class="pricing-feature">5-10 minute highlight film</div>
+            <div class="pricing-feature">4K + drone footage</div>
+            <div class="pricing-feature">Professional color grading</div>
+            <div class="pricing-feature">Custom soundtrack</div>
+            <div class="pricing-feature">3 revision rounds</div>
+            <div class="pricing-feature">Social media cuts included</div>
+          </div>
+          <button class="btn btn-blush w-full" onclick="navigate('booking')">Book Now</button>
+        </div>
+        <div class="pricing-card fade-up" style="transition-delay:0.2s">
+          <h3>Brand Production</h3>
+          <p style="color:var(--text-light);font-size:0.9rem">Commercial & corporate video production</p>
+          <div class="price-num">$5,500+ <small>/ project</small></div>
+          <div class="pricing-features">
+            <div class="pricing-feature">Full production crew</div>
+            <div class="pricing-feature">Multi-day shoots</div>
+            <div class="pricing-feature">4K broadcast quality</div>
+            <div class="pricing-feature">Script & storyboarding</div>
+            <div class="pricing-feature">Unlimited revisions</div>
+            <div class="pricing-feature">Raw footage delivery</div>
+            <div class="pricing-feature">Broadcast rights</div>
+          </div>
+          <button class="btn btn-outline w-full" onclick="navigate('booking')">Get Quote</button>
+        </div>
+      </div>
+
+      <!-- Add-ons -->
+      <div style="margin-top:80px">
+        <div class="section-label"><span>Add-Ons</span></div>
+        <h3 style="margin-bottom:32px;color:var(--espresso)">Enhance Your Package</h3>
+        <div class="grid-4">
+          <div style="background:var(--white);border-radius:var(--radius);padding:24px;box-shadow:var(--shadow-sm)">
+            <div style="font-size:2rem;margin-bottom:12px"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="4" width="18" height="16" rx="1.5"/><circle cx="8.5" cy="9.5" r="1.7"/><path d="M4 17l5-5 3.5 3.5L17 10l3 3"/></svg></span></div>
+            <h4 style="color:var(--espresso);margin-bottom:8px">Fine Art Prints</h4>
+            <p style="font-size:0.85rem;color:var(--text-light)">Museum-quality archival prints from $45</p>
+          </div>
+          <div style="background:var(--white);border-radius:var(--radius);padding:24px;box-shadow:var(--shadow-sm)">
+            <div style="font-size:2rem;margin-bottom:12px"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 3l3 3-8.5 8.5a2.1 2.1 0 0 0 3 3L15 9l3 3 2-2-8-8z"/><path d="M4.5 16.5L3 21l4.5-1.5"/></svg></span></div>
+            <h4 style="color:var(--espresso);margin-bottom:8px">Hair & Makeup</h4>
+            <p style="font-size:0.85rem;color:var(--text-light)">Professional styling from $120</p>
+          </div>
+          <div style="background:var(--white);border-radius:var(--radius);padding:24px;box-shadow:var(--shadow-sm)">
+            <div style="font-size:2rem;margin-bottom:12px"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="2.3"/><path d="M4 4l5.5 5.5M20 4l-5.5 5.5M4 20l5.5-5.5M20 20l-5.5-5.5"/><circle cx="4" cy="4" r="2"/><circle cx="20" cy="4" r="2"/><circle cx="4" cy="20" r="2"/><circle cx="20" cy="20" r="2"/></svg></span></div>
+            <h4 style="color:var(--espresso);margin-bottom:8px">Drone Footage</h4>
+            <p style="font-size:0.85rem;color:var(--text-light)">Aerial photography & video from $280</p>
+          </div>
+          <div style="background:var(--white);border-radius:var(--radius);padding:24px;box-shadow:var(--shadow-sm)">
+            <div style="font-size:2rem;margin-bottom:12px"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 8l9-4 9 4-9 4-9-4z"/><path d="M3 8v9l9 4 9-4V8"/><path d="M12 12v9"/></svg></span></div>
+            <h4 style="color:var(--espresso);margin-bottom:8px">Photo Album</h4>
+            <p style="font-size:0.85rem;color:var(--text-light)">Luxury lay-flat albums from $220</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="booking-cta"><div class="container"><h2 style="color:var(--white)">Ready to Get <em style="font-family:'Dancing Script',cursive">Started?</em></h2><p style="color:rgba(255,255,255,0.65);max-width:500px;margin:0 auto 40px;font-size:1.05rem;line-height:1.8">Not sure which package is right for you? Let's chat and we'll recommend the perfect option for your vision.</p><button class="btn btn-blush" onclick="navigate('booking')">Book a Free Consultation</button></div></section>
+  <footer class="footer"><div class="container"><div class="footer-bottom"><p>© 2024 Framed & Motion Studio. All rights reserved.</p><button class="btn btn-blush btn-sm" onclick="navigate('booking')">Book a Session</button></div></div></footer>
+</div>
+
+<!-- ========== BOOKING PAGE ========== -->
+<div id="page-booking" class="page">
+  <div class="page-header">
+    <div class="container">
+      <div class="page-header-content">
+        <nav class="breadcrumb" aria-label="Breadcrumb"><a onclick="navigate('home')">Home</a><span>/</span><span class="current">Book a Session</span></nav>
+        <h1>Book Your <em style="font-family:'Dancing Script',cursive">Session</em></h1>
+        <p>Select your preferred date and time. Our calendar syncs with Google Calendar for real-time availability.</p>
+      </div>
+    </div>
+  </div>
+  <section class="section" style="background:var(--ivory)">
+    <div class="container">
+      <div class="booking-layout">
+        <div>
+          <!-- Service Selector -->
+          <div style="background:var(--white);border-radius:var(--radius-lg);padding:32px;box-shadow:var(--shadow-sm);margin-bottom:28px">
+            <h3 style="color:var(--espresso);margin-bottom:20px;font-size:1.2rem;font-weight:600">1. Select a Service</h3>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px" id="service-selector">
+              <button class="service-select-btn active" onclick="selectService(this,'Portrait Session','$280','2 hours')" style="padding:16px;border-radius:10px;border:1.5px solid var(--blush);background:var(--blush-pale);cursor:pointer;text-align:left;transition:all 0.2s;font-family:'Jost',sans-serif">
+                <div style="font-size:1.3rem;margin-bottom:8px"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 8h3l2-3h6l2 3h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/><circle cx="12" cy="13" r="3.5"/></svg></span></div>
+                <div style="font-weight:600;color:var(--espresso);font-size:0.9rem">Portrait Session</div>
+                <div style="color:var(--blush);font-size:0.8rem;margin-top:2px">From $280</div>
+              </button>
+              <button class="service-select-btn" onclick="selectService(this,'Wedding Coverage','$2,400','Full day')" style="padding:16px;border-radius:10px;border:1.5px solid var(--gray-200);background:var(--white);cursor:pointer;text-align:left;transition:all 0.2s;font-family:'Jost',sans-serif">
+                <div style="font-size:1.3rem;margin-bottom:8px"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="15" r="4.5"/><circle cx="16" cy="15" r="4.5"/><path d="M9 11.5L12 4l3 7.5"/></svg></span></div>
+                <div style="font-weight:600;color:var(--espresso);font-size:0.9rem">Wedding Coverage</div>
+                <div style="color:var(--text-light);font-size:0.8rem;margin-top:2px">From $2,400</div>
+              </button>
+              <button class="service-select-btn" onclick="selectService(this,'Family Portraits','$380','3 hours')" style="padding:16px;border-radius:10px;border:1.5px solid var(--gray-200);background:var(--white);cursor:pointer;text-align:left;transition:all 0.2s;font-family:'Jost',sans-serif">
+                <div style="font-size:1.3rem;margin-bottom:8px"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><circle cx="17" cy="9" r="2.6"/><path d="M15 14.2c2.5.4 4.5 2.4 5 5.8"/></svg></span></div>
+                <div style="font-weight:600;color:var(--espresso);font-size:0.9rem">Family Portraits</div>
+                <div style="color:var(--text-light);font-size:0.8rem;margin-top:2px">From $380</div>
+              </button>
+              <button class="service-select-btn" onclick="selectService(this,'Cinematic Film','$2,400','Varies')" style="padding:16px;border-radius:10px;border:1.5px solid var(--gray-200);background:var(--white);cursor:pointer;text-align:left;transition:all 0.2s;font-family:'Jost',sans-serif">
+                <div style="font-size:1.3rem;margin-bottom:8px"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="4" width="18" height="16" rx="1.5"/><path d="M3 9h18M3 15h18M8 4v16M16 4v16"/></svg></span></div>
+                <div style="font-weight:600;color:var(--espresso);font-size:0.9rem">Cinematic Film</div>
+                <div style="color:var(--text-light);font-size:0.8rem;margin-top:2px">From $2,400</div>
+              </button>
+            </div>
+          </div>
+
+          <!-- Calendar -->
+          <div class="calendar-wrapper">
+            <h3 style="color:var(--espresso);margin-bottom:20px;font-size:1.2rem;font-weight:600">2. Choose a Date</h3>
+            <div class="calendar-header">
+              <button class="cal-nav" onclick="changeMonth(-1)" aria-label="Previous month">←</button>
+              <div class="cal-month" id="cal-month-label" aria-live="polite">July 2026</div>
+              <button class="cal-nav" onclick="changeMonth(1)" aria-label="Next month">→</button>
+            </div>
+            <div class="cal-weekdays" role="row">
+              <div class="cal-weekday" role="columnheader" abbr="Sunday">Su</div>
+              <div class="cal-weekday" role="columnheader" abbr="Monday">Mo</div>
+              <div class="cal-weekday" role="columnheader" abbr="Tuesday">Tu</div>
+              <div class="cal-weekday" role="columnheader" abbr="Wednesday">We</div>
+              <div class="cal-weekday" role="columnheader" abbr="Thursday">Th</div>
+              <div class="cal-weekday" role="columnheader" abbr="Friday">Fr</div>
+              <div class="cal-weekday" role="columnheader" abbr="Saturday">Sa</div>
+            </div>
+            <div class="cal-days" id="cal-days" role="grid" aria-label="Calendar"></div>
+            <div class="time-slots" id="time-slots" style="display:none">
+              <h4>3. Choose a Time</h4>
+              <div class="slots-grid" id="slots-grid" role="group" aria-label="Available time slots"></div>
+              <div style="margin-top:16px;display:flex;gap:16px;flex-wrap:wrap">
+                <div style="display:flex;align-items:center;gap:8px;font-size:0.78rem;color:var(--text-light)"><div style="width:16px;height:16px;border-radius:4px;background:var(--white);border:1.5px solid var(--gray-200)"></div> Available</div>
+                <div style="display:flex;align-items:center;gap:8px;font-size:0.78rem;color:var(--text-light)"><div style="width:16px;height:16px;border-radius:4px;background:var(--espresso)"></div> Selected</div>
+                <div style="display:flex;align-items:center;gap:8px;font-size:0.78rem;color:var(--text-light)"><div style="width:16px;height:16px;border-radius:4px;background:var(--gray-100);border:1.5px solid var(--gray-200)"></div> Unavailable</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Notes -->
+          <div style="background:var(--white);border-radius:var(--radius-lg);padding:32px;box-shadow:var(--shadow-sm);margin-top:28px">
+            <h3 style="color:var(--espresso);margin-bottom:16px;font-size:1.2rem;font-weight:600">4. Additional Notes</h3>
+            <div class="form-group" style="margin-bottom:0">
+              <label for="booking-notes">Tell us about your vision (optional)</label>
+              <textarea id="booking-notes" rows="4" placeholder="Location preferences, special requests, number of people, style inspiration..."></textarea>
+            </div>
+          </div>
+
+          <div style="background:rgba(201,169,154,0.1);border:1px solid rgba(201,169,154,0.3);border-radius:12px;padding:16px;margin-top:20px;display:flex;gap:12px;align-items:flex-start">
+            <span style="font-size:1.2rem"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="5" width="18" height="16" rx="1.5"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></span></span>
+            <div>
+              <div style="font-weight:600;color:var(--espresso);font-size:0.88rem;margin-bottom:4px">Google Calendar Sync</div>
+              <div style="font-size:0.82rem;color:var(--text-light);line-height:1.6">Your booking will automatically sync to Google Calendar. You'll receive a calendar invite and email confirmation with all session details.</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Booking Summary -->
+        <div class="booking-summary">
+          <h3>Booking Summary</h3>
+          <div class="summary-row"><span class="label">Service</span><span class="value" id="summary-service">Portrait Session</span></div>
+          <div class="summary-row"><span class="label">Date</span><span class="value" id="summary-date">Not selected</span></div>
+          <div class="summary-row"><span class="label">Time</span><span class="value" id="summary-time">Not selected</span></div>
+          <div class="summary-row"><span class="label">Duration</span><span class="value" id="summary-duration">2 hours</span></div>
+          <div class="summary-row summary-total"><span class="label" style="font-weight:600;color:var(--espresso)">Total</span><span class="value" id="summary-price">$280</span></div>
+          <div class="divider" style="margin:20px 0"></div>
+          <h4 style="color:var(--espresso);margin-bottom:16px;font-size:1rem">Your Information</h4>
+          <div class="booking-form">
+            <div class="form-group" style="margin-bottom:0">
+              <label for="book-name">Full Name *</label>
+              <input type="text" id="book-name" placeholder="Your full name" required aria-required="true">
+            </div>
+            <div class="form-group" style="margin-bottom:0">
+              <label for="book-email">Email Address *</label>
+              <input type="email" id="book-email" placeholder="your@email.com" required aria-required="true">
+            </div>
+            <div class="form-group" style="margin-bottom:0">
+              <label for="book-phone">Phone Number</label>
+              <input type="tel" id="book-phone" placeholder="+230 0000 0000">
+            </div>
+            <button class="btn btn-primary w-full" onclick="confirmBooking()" style="margin-top:8px">Confirm Booking</button>
+            <p style="font-size:0.76rem;color:var(--text-light);text-align:center;line-height:1.5">A $50 deposit is required to confirm. Full balance due 48h before session. Free cancellation up to 7 days prior.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer"><div class="container"><div class="footer-bottom"><p>© 2024 Framed & Motion Studio. All rights reserved.</p></div></div></footer>
+</div>
+
+<!-- ========== ABOUT PAGE ========== -->
+<div id="page-about" class="page">
+  <div class="page-header">
+    <div class="container">
+      <div class="page-header-content">
+        <nav class="breadcrumb" aria-label="Breadcrumb"><a onclick="navigate('home')">Home</a><span>/</span><span class="current">About</span></nav>
+        <h1>About <em style="font-family:'Dancing Script',cursive">Us</em></h1>
+        <p>Meet the passionate team behind Framed & Motion Studio and discover our story.</p>
+      </div>
+    </div>
+  </div>
+  <section class="section" style="background:var(--ivory)">
+    <div class="container">
+      <div class="grid-2" style="margin-bottom:80px">
+        <div>
+          <div class="section-label"><span>Our Story</span></div>
+          <h2>A Decade of <em style="font-family:'Dancing Script',cursive;color:var(--blush)">Storytelling</em></h2>
+          <p style="color:var(--text-light);line-height:1.9;margin-top:20px;font-size:1.02rem">Founded in 2025, Framed & Motion Studio began as a one-man photography practice in a small studio apartment. What started as a passion project has grown into a full-service photography and videography services with a team of dedicated artists.</p>
+          <p style="color:var(--text-light);line-height:1.9;margin-top:16px;font-size:1.02rem">We believe that every person, every family, and every brand has a unique story worth telling. Our mission is to translate those stories into stunning visual narratives that stand the test of time.</p>
+          <div style="display:flex;gap:32px;margin-top:36px">
+            <div><div style="font-family:'Cormorant Garamond',serif;font-size:2.5rem;font-weight:300;color:var(--blush)">10+</div><div style="font-size:0.8rem;color:var(--text-light);letter-spacing:0.08em;text-transform:uppercase">Years</div></div>
+            <div><div style="font-family:'Cormorant Garamond',serif;font-size:2.5rem;font-weight:300;color:var(--blush)">800+</div><div style="font-size:0.8rem;color:var(--text-light);letter-spacing:0.08em;text-transform:uppercase">Clients</div></div>
+            <div><div style="font-family:'Cormorant Garamond',serif;font-size:2.5rem;font-weight:300;color:var(--blush)">12</div><div style="font-size:0.8rem;color:var(--text-light);letter-spacing:0.08em;text-transform:uppercase">Awards</div></div>
+          </div>
+        </div>
+        <div style="background:linear-gradient(135deg,#C9A99A,#8B7355);border-radius:var(--radius-lg);min-height:400px;display:flex;align-items:center;justify-content:center;font-size:4rem"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 8h3l2-3h6l2 3h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/><circle cx="12" cy="13" r="3.5"/></svg></span></div>
+      </div>
+
+      <!-- Team -->
+      <div class="section-label"><span>Our Team</span></div>
+      <h2 style="margin-bottom:48px;color:var(--espresso)">Meet the <em style="font-family:'Dancing Script',cursive;color:var(--blush)">Artists</em></h2>
+      <div class="team-grid">
+        <article class="team-card fade-up">
+          <div class="team-avatar" aria-hidden="true">S</div>
+          <h3>John Bradley Bot</h3>
+          <div class="team-role">Founder</div>
+          <p class="team-bio">John specializes in portrait and street photography. His work has been featured in many social media platform.</p>
+        </article>
+        <article class="team-card fade-up" style="transition-delay:0.1s">
+          <div class="team-avatar" aria-hidden="true">M</div>
+          <h3>Marcus Chen</h3>
+          <div class="team-role">Cinematographer & Director</div>
+          <p class="team-bio">Award-winning cinematographer with a background in commercial film. Marcus brings cinematic vision to every motion project.</p>
+        </article>
+        <article class="team-card fade-up" style="transition-delay:0.2s">
+          <div class="team-avatar" aria-hidden="true">A</div>
+          <h3>Amara Okafor</h3>
+          <div class="team-role">Photographer & Retoucher</div>
+          <p class="team-bio">Amara's eye for light and her meticulous editing style ensure that every image delivered is absolutely perfect.</p>
+        </article>
+      </div>
+
+      <!-- Values -->
+      <div style="margin-top:80px">
+        <div class="section-label"><span>Our Values</span></div>
+        <h2 style="margin-bottom:48px;color:var(--espresso)">What We <em style="font-family:'Dancing Script',cursive;color:var(--blush)">Believe</em></h2>
+        <div class="grid-3">
+          <div style="background:var(--white);border-radius:var(--radius-lg);padding:36px;box-shadow:var(--shadow-sm)">
+            <div style="font-size:2.5rem;margin-bottom:20px"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 3a9 9 0 1 0 0 18c1.4 0 2-.9 2-2 0-.6-.3-1-.6-1.4-.3-.4-.5-.7-.5-1.1 0-.8.6-1.5 1.5-1.5H16a4 4 0 0 0 4-4c0-4.4-3.6-8-8-8z"/><circle cx="7.5" cy="10.5" r="1.2"/><circle cx="12" cy="7.5" r="1.2"/><circle cx="16.2" cy="10" r="1.2"/></svg></span></div>
+            <h3 style="color:var(--espresso);margin-bottom:12px">Artistry First</h3>
+            <p style="color:var(--text-light);font-size:0.92rem;line-height:1.8">Every click of the shutter is an artistic decision. We don't just take photos — we craft visual art.</p>
+          </div>
+          <div style="background:var(--white);border-radius:var(--radius-lg);padding:36px;box-shadow:var(--shadow-sm)">
+            <div style="font-size:2.5rem;margin-bottom:20px"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M2 12l4-4 4 3 3-3 4 4-3 3-2-2-3 3-3-3z"/><path d="M13 14l3 3 4-4"/></svg></span></div>
+            <h3 style="color:var(--espresso);margin-bottom:12px">Client Connection</h3>
+            <p style="color:var(--text-light);font-size:0.92rem;line-height:1.8">We take time to understand your vision, your personality, and your story before we ever pick up a camera.</p>
+          </div>
+          <div style="background:var(--white);border-radius:var(--radius-lg);padding:36px;box-shadow:var(--shadow-sm)">
+            <div style="font-size:2.5rem;margin-bottom:20px"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 3l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L12 16.9 6.4 20l1.4-6.2-4.8-4.3 6.4-.6L12 3z"/></svg></span></div>
+            <h3 style="color:var(--espresso);margin-bottom:12px">Excellence Always</h3>
+            <p style="color:var(--text-light);font-size:0.92rem;line-height:1.8">From the initial consultation to final delivery, we maintain an uncompromising standard of quality in everything we do.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="booking-cta"><div class="container"><h2 style="color:var(--white)">Let's Create Together</h2><p style="color:rgba(255,255,255,0.65);max-width:500px;margin:0 auto 40px;font-size:1.05rem;line-height:1.8">We'd love to meet you and hear about your vision. Book a free 30-minute consultation.</p><button class="btn btn-blush" onclick="navigate('contact')">Get in Touch</button></div></section>
+  <footer class="footer"><div class="container"><div class="footer-bottom"><p>© 2024 Framed & Motion Studio. All rights reserved.</p><button class="btn btn-blush btn-sm" onclick="navigate('booking')">Book a Session</button></div></div></footer>
+</div>
+
+<!-- ========== CONTACT PAGE ========== -->
+<div id="page-contact" class="page">
+  <div class="page-header">
+    <div class="container">
+      <div class="page-header-content">
+        <nav class="breadcrumb" aria-label="Breadcrumb"><a onclick="navigate('home')">Home</a><span>/</span><span class="current">Contact</span></nav>
+        <h1>Get in <em style="font-family:'Dancing Script',cursive">Touch</em></h1>
+        <p>We'd love to hear from you. Send us a message and we'll get back to you within 48 hours.</p>
+      </div>
+    </div>
+  </div>
+  <section class="section" style="background:var(--ivory)">
+    <div class="container">
+      <div class="contact-layout">
+        <div class="contact-info-card">
+          <div class="section-label" style="--blush:#fff"><span style="color:rgba(255,255,255,0.7)">Contact Info</span></div>
+          <h2>Let's Start a <em style="font-family:'Dancing Script',cursive">Conversation</em></h2>
+          <p>Ready to book your session or have questions? Reach out — we're always happy to chat about your vision.</p>
+          <div class="contact-item">
+            <div class="contact-icon" aria-hidden="true"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 21s-7-7.4-7-12a7 7 0 0 1 14 0c0 4.6-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></svg></span></div>
+            <div class="contact-item-text">
+              <div class="ci-label">Studio Address</div>
+              <div class="ci-value">Curepipe<br>Plaine Wilhims, Mauritius</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon" aria-hidden="true"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.5.6 3.8.6.6 0 1.1.5 1.1 1.1V20.9c0 .6-.5 1.1-1.1 1.1C10.9 22 2 13.1 2 3.1 2 2.5 2.5 2 3.1 2H6.6c.6 0 1.1.5 1.1 1.1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1L6.6 10.8z"/></svg></span></div>
+            <div class="contact-item-text">
+              <div class="ci-label">Phone</div>
+              <div class="ci-value">+230 5482 6037</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon" aria-hidden="true"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="M3.5 6l8.5 7 8.5-7"/></svg></span></div>
+            <div class="contact-item-text">
+              <div class="ci-label">Email</div>
+              <div class="ci-value">hello@framedandmotion.com</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon" aria-hidden="true"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></span></div>
+            <div class="contact-item-text">
+              <div class="ci-label">Operating Hours</div>
+              <div class="ci-value">Mon–Fri: 9am–7pm<br>Sat: 9am–5pm | Sun: By Appointment</div>
+            </div>
+          </div>
+          <div class="contact-social">
+            <button class="social-btn" aria-label="Instagram"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 8h3l2-3h6l2 3h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/><circle cx="12" cy="13" r="3.5"/></svg></span></button>
+            <button class="social-btn" aria-label="Facebook">📘</button>
+            <button class="social-btn" aria-label="YouTube">▶️</button>
+            <button class="social-btn" aria-label="Pinterest">📌</button>
+          </div>
+        </div>
+        <div class="contact-form">
+          <h2 style="color:var(--espresso);margin-bottom:32px">Send Us a Message</h2>
+          <div class="form-row">
+            <div class="form-group"><label for="contact-firstname">First Name *</label><input type="text" id="contact-firstname" placeholder="Sofia" required></div>
+            <div class="form-group"><label for="contact-lastname">Last Name *</label><input type="text" id="contact-lastname" placeholder="Reyes" required></div>
+          </div>
+          <div class="form-group"><label for="contact-email">Email Address *</label><input type="email" id="contact-email" placeholder="your@email.com" required></div>
+          <div class="form-group"><label for="contact-phone">Phone Number</label><input type="tel" id="contact-phone" placeholder="+1 (555) 000-0000"></div>
+          <div class="form-group">
+            <label for="contact-service">Interested In</label>
+            <select id="contact-service">
+              <option value="">Select a service...</option>
+              <option>Portrait Photography</option>
+              <option>Wedding Photography</option>
+              <option>Family Portraits</option>
+              <option>Newborn Photography</option>
+              <option>Commercial Photography</option>
+              <option>Cinematic Film</option>
+              <option>Brand Production</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group"><label for="contact-msg">Message *</label><textarea id="contact-msg" rows="5" placeholder="Tell us about your project, your vision, or any questions you have..." required></textarea></div>
+          <button class="btn btn-primary w-full" onclick="sendMessage()">Send Message</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer"><div class="container"><div class="footer-bottom"><p>© 2024 Framed & Motion Studio. All rights reserved.</p></div></div></footer>
+</div>
+
+<!-- ========== LOGIN PAGE ========== -->
+<div id="page-login" class="page">
+  <div class="auth-page">
+    <div class="auth-card">
+      <div class="auth-logo">
+        <div class="script" style="font-size:1.8rem;color:var(--espresso)">Framed & Motion</div>
+        <p>Sign in to manage your bookings</p>
+      </div>
+      <h2 class="auth-title">Welcome Back</h2>
+      <p class="auth-subtitle">Sign in to your account to view and manage your sessions.</p>
+      <div class="form-group"><label for="login-email">Email Address</label><input type="email" id="login-email" placeholder="your@email.com"></div>
+      <div class="form-group"><label for="login-pass">Password</label><input type="password" id="login-pass" placeholder="••••••••"><div style="text-align:right;margin-top:6px"><a style="font-size:0.82rem;color:var(--blush);cursor:pointer">Forgot password?</a></div></div>
+      <button class="btn btn-primary w-full" style="margin-top:8px" onclick="loginUser()">Sign In</button>
+      <div class="auth-divider"><span>or continue with</span></div>
+      <button class="btn btn-outline w-full" onclick="loginUser()"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 12.2c0-.7-.1-1.4-.2-2H12v3.8h5a4.3 4.3 0 0 1-1.9 2.8v2.3h3A9 9 0 0 0 21 12.2z"/><path d="M12 21c2.4 0 4.5-.8 6-2.2l-3-2.3c-.8.6-1.9.9-3 .9-2.3 0-4.3-1.6-5-3.7H4v2.3A9 9 0 0 0 12 21z"/><path d="M7 13.7a5.4 5.4 0 0 1 0-3.4V8H4a9 9 0 0 0 0 8z"/><path d="M12 6.6c1.3 0 2.5.5 3.4 1.3l2.5-2.5A9 9 0 0 0 4 8l3 2.3c.7-2.1 2.7-3.7 5-3.7z"/></svg></span> Continue with Google</button>
+      <div class="auth-switch">Don't have an account? <a onclick="navigate('register')">Create one free</a></div>
+    </div>
+  </div>
+</div>
+
+<!-- ========== REGISTER PAGE ========== -->
+<div id="page-register" class="page">
+  <div class="auth-page">
+    <div class="auth-card">
+      <div class="auth-logo">
+        <div class="script" style="font-size:1.8rem;color:var(--espresso)">Framed & Motion</div>
+        <p>Create your client account</p>
+      </div>
+      <h2 class="auth-title">Create Account</h2>
+      <p class="auth-subtitle">Join our community and manage your studio bookings with ease.</p>
+      <div class="form-row">
+        <div class="form-group"><label for="reg-first">First Name</label><input type="text" id="reg-first" placeholder="Sofia"></div>
+        <div class="form-group"><label for="reg-last">Last Name</label><input type="text" id="reg-last" placeholder="Reyes"></div>
+      </div>
+      <div class="form-group"><label for="reg-email">Email Address</label><input type="email" id="reg-email" placeholder="your@email.com"></div>
+      <div class="form-group"><label for="reg-pass">Password</label><input type="password" id="reg-pass" placeholder="Min. 8 characters"></div>
+      <div style="display:flex;gap:10px;align-items:flex-start;margin-bottom:20px">
+        <input type="checkbox" id="reg-terms" style="width:18px;height:18px;flex-shrink:0;margin-top:2px">
+        <label for="reg-terms" style="font-size:0.82rem;color:var(--text-light);text-transform:none;letter-spacing:0">I agree to the <a style="color:var(--blush);cursor:pointer">Terms of Service</a> and <a style="color:var(--blush);cursor:pointer">Privacy Policy</a></label>
+      </div>
+      <button class="btn btn-primary w-full" onclick="loginUser()">Create Account</button>
+      <div class="auth-divider"><span>or</span></div>
+      <button class="btn btn-outline w-full" onclick="loginUser()"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 12.2c0-.7-.1-1.4-.2-2H12v3.8h5a4.3 4.3 0 0 1-1.9 2.8v2.3h3A9 9 0 0 0 21 12.2z"/><path d="M12 21c2.4 0 4.5-.8 6-2.2l-3-2.3c-.8.6-1.9.9-3 .9-2.3 0-4.3-1.6-5-3.7H4v2.3A9 9 0 0 0 12 21z"/><path d="M7 13.7a5.4 5.4 0 0 1 0-3.4V8H4a9 9 0 0 0 0 8z"/><path d="M12 6.6c1.3 0 2.5.5 3.4 1.3l2.5-2.5A9 9 0 0 0 4 8l3 2.3c.7-2.1 2.7-3.7 5-3.7z"/></svg></span> Sign up with Google</button>
+      <div class="auth-switch">Already have an account? <a onclick="navigate('login')">Sign in</a></div>
+    </div>
+  </div>
+</div>
+
+<!-- ========== USER DASHBOARD ========== -->
+<div id="page-dashboard-user" class="page">
+  <div class="page-header" style="padding:120px 0 50px">
+    <div class="container">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <div>
+          <h1 style="color:var(--white);font-size:2rem">My Dashboard</h1>
+          <p style="color:rgba(255,255,255,0.6);font-size:0.95rem;margin-top:4px">Welcome back, <strong style="color:var(--blush-light)">Sofia</strong></p>
+        </div>
+        <button class="btn btn-blush btn-sm" onclick="navigate('booking')">+ Book Session</button>
+      </div>
+    </div>
+  </div>
+  <section class="section-sm" style="background:var(--gray-100)">
+    <div class="container">
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-bottom:40px">
+        <div class="stat-card"><span class="stat-card-icon"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="5" width="18" height="16" rx="1.5"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></span></span><div class="stat-card-num">3</div><div class="stat-card-label">Upcoming Sessions</div></div>
+        <div class="stat-card"><span class="stat-card-icon"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.5 2.5L16 9.5"/></svg></span></span><div class="stat-card-num">8</div><div class="stat-card-label">Completed Sessions</div></div>
+        <div class="stat-card"><span class="stat-card-icon"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="4" width="18" height="16" rx="1.5"/><circle cx="8.5" cy="9.5" r="1.7"/><path d="M4 17l5-5 3.5 3.5L17 10l3 3"/></svg></span></span><div class="stat-card-num">240</div><div class="stat-card-label">Photos Delivered</div></div>
+      </div>
+      <h3 style="color:var(--espresso);margin-bottom:24px">Upcoming Bookings</h3>
+      <div class="user-bookings">
+        <div class="user-booking-card">
+          <div class="ub-date"><div class="ub-day">15</div><div class="ub-month">Jul</div></div>
+          <div class="ub-info">
+            <div class="ub-service">Portrait Session — Signature Package</div>
+            <div class="ub-time">2:00 PM – 6:00 PM · Central Park, NYC</div>
+            <div style="margin-top:8px"><span class="booking-status status-confirmed">Confirmed</span></div>
+          </div>
+          <div class="ub-actions">
+            <button class="btn btn-outline btn-sm">Reschedule</button>
+            <button class="btn btn-sm" style="background:#FFEBEE;color:#C62828;border-radius:8px">Cancel</button>
+          </div>
+        </div>
+        <div class="user-booking-card">
+          <div class="ub-date"><div class="ub-day">22</div><div class="ub-month">Jul</div></div>
+          <div class="ub-info">
+            <div class="ub-service">Family Portraits — Essential Package</div>
+            <div class="ub-time">10:00 AM – 12:00 PM · Studio</div>
+            <div style="margin-top:8px"><span class="booking-status status-confirmed">Confirmed</span></div>
+          </div>
+          <div class="ub-actions">
+            <button class="btn btn-outline btn-sm">Reschedule</button>
+            <button class="btn btn-sm" style="background:#FFEBEE;color:#C62828;border-radius:8px">Cancel</button>
+          </div>
+        </div>
+        <div class="user-booking-card">
+          <div class="ub-date"><div class="ub-day">03</div><div class="ub-month">Aug</div></div>
+          <div class="ub-info">
+            <div class="ub-service">Wedding Coverage — Full Day</div>
+            <div class="ub-time">All Day · Hudson Valley, NY</div>
+            <div style="margin-top:8px"><span class="booking-status status-pending">Deposit Pending</span></div>
+          </div>
+          <div class="ub-actions">
+            <button class="btn btn-blush btn-sm">Pay Deposit</button>
+          </div>
+        </div>
+      </div>
+
+      <h3 style="color:var(--espresso);margin:40px 0 24px">My Photo Gallery</h3>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px">
+        <div style="border-radius:12px;overflow:hidden;aspect-ratio:1;background:linear-gradient(135deg,#C9A99A,#8B7355);display:flex;align-items:center;justify-content:center;font-size:2rem;cursor:pointer"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 8h3l2-3h6l2 3h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/><circle cx="12" cy="13" r="3.5"/></svg></span></div>
+        <div style="border-radius:12px;overflow:hidden;aspect-ratio:1;background:linear-gradient(135deg,#E8D0C4,#C9A99A);display:flex;align-items:center;justify-content:center;font-size:2rem;cursor:pointer"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 4v3M4.2 10.2l2.1 2.1M19.8 10.2l-2.1 2.1M2 17h20M6 17a6 6 0 0 1 12 0"/></svg></span></div>
+        <div style="border-radius:12px;overflow:hidden;aspect-ratio:1;background:linear-gradient(135deg,#8B7355,#4A2E22);display:flex;align-items:center;justify-content:center;font-size:2rem;cursor:pointer"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="9"/><path d="M12 3v6M12 15v6M4.2 7.8l5.2 3M14.6 13.2l5.2 3M4.2 16.2l5.2-3M14.6 10.8l5.2-3"/></svg></span></div>
+        <div style="border-radius:12px;overflow:hidden;aspect-ratio:1;background:linear-gradient(135deg,#4A2E22,#C9A99A);display:flex;align-items:center;justify-content:center;font-size:2rem;cursor:pointer"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l1.8 5.7L19.5 9l-5.7 1.8L12 16.5l-1.8-5.7L4.5 9l5.7-1.3L12 2z"/></svg></span></div>
+      </div>
+      <button class="btn btn-outline btn-sm" style="margin-top:16px" onclick="navigate('home')">← Back to Home</button>
+    </div>
+  </section>
+</div>
+
+<!-- ========== ADMIN DASHBOARD ========== -->
+<div id="page-admin" class="page">
+  <div class="dashboard-layout">
+    <!-- Sidebar -->
+    <aside class="sidebar" role="navigation" aria-label="Admin navigation">
+      <div class="sidebar-logo">
+        <div class="script">Framed <span>&</span> Motion</div>
+        <p>Admin Panel</p>
+      </div>
+      <nav class="sidebar-nav">
+        <div class="sidebar-section-label">Overview</div>
+        <div class="sidebar-item active" onclick="showDashSection('overview',this)" tabindex="0">
+          <span class="icon"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span></span> Dashboard
+        </div>
+        <div class="sidebar-section-label">Bookings</div>
+        <div class="sidebar-item" onclick="showDashSection('bookings',this)" tabindex="0">
+          <span class="icon"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="5" width="18" height="16" rx="1.5"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></span></span> All Bookings <span class="badge">12</span>
+        </div>
+        <div class="sidebar-item" onclick="showDashSection('calendar',this)" tabindex="0">
+          <span class="icon"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="5" width="18" height="16" rx="1.5"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></span></span> Calendar View
+        </div>
+        <div class="sidebar-section-label">Content</div>
+        <div class="sidebar-item" onclick="showDashSection('portfolio',this)" tabindex="0">
+          <span class="icon"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="4" width="18" height="16" rx="1.5"/><circle cx="8.5" cy="9.5" r="1.7"/><path d="M4 17l5-5 3.5 3.5L17 10l3 3"/></svg></span></span> Portfolio CMS
+        </div>
+        <div class="sidebar-item" onclick="showDashSection('blog',this)" tabindex="0">
+          <span class="icon"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 20h4L19.5 8.5a2.1 2.1 0 0 0-3-3L5.5 16 4 20z"/><path d="M14 6l4 4"/></svg></span></span> Blog Posts
+        </div>
+        <div class="sidebar-item" onclick="showDashSection('pricing',this)" tabindex="0">
+          <span class="icon"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2v20"/><path d="M16.5 6.5c0-1.7-2-3-4.5-3s-4.5 1.3-4.5 3 1.5 2.4 4.5 3c3 .6 4.5 1.3 4.5 3s-2 3-4.5 3-4.5-1.3-4.5-3"/></svg></span></span> Pricing
+        </div>
+        <div class="sidebar-section-label">Clients</div>
+        <div class="sidebar-item" onclick="showDashSection('clients',this)" tabindex="0">
+          <span class="icon"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><circle cx="17" cy="9" r="2.6"/><path d="M15 14.2c2.5.4 4.5 2.4 5 5.8"/></svg></span></span> Clients <span class="badge">48</span>
+        </div>
+        <div class="sidebar-item" onclick="showDashSection('emails',this)" tabindex="0">
+          <span class="icon"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="M3.5 6l8.5 7 8.5-7"/></svg></span></span> Email Templates
+        </div>
+        <div class="sidebar-section-label">Settings</div>
+        <div class="sidebar-item" onclick="showDashSection('settings',this)" tabindex="0">
+          <span class="icon"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="3"/><path d="M19.4 13a1.7 1.7 0 0 0 .3 1.9l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.9-.3 1.7 1.7 0 0 0-1 1.5V19a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1-1.6 1.7 1.7 0 0 0-1.9.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.9 1.7 1.7 0 0 0-1.5-1H4a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.6-1 1.7 1.7 0 0 0-.3-1.9l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.9.3H10a1.7 1.7 0 0 0 1-1.5V4a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.6 1.7 1.7 0 0 0 1.9-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.9V10c.2.6.7 1 1.5 1H20a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></span></span> Settings
+        </div>
+        <div class="sidebar-item" onclick="navigate('home')" tabindex="0">
+          <span class="icon"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11L12 4l8 7"/><path d="M6 10v10h12V10"/><path d="M10 20v-5h4v5"/></svg></span></span> View Site
+        </div>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="dashboard-main">
+
+      <!-- Overview Section -->
+      <div id="dash-overview" class="dash-section">
+        <div class="dash-header">
+          <div>
+            <div class="dash-title">Dashboard Overview</div>
+            <div class="dash-subtitle">Wednesday, July 12, 2026 · Good morning, John! ☀️</div>
+          </div>
+          <button class="btn btn-primary btn-sm" onclick="navigate('booking')">+ New Booking</button>
+        </div>
+        <div class="stats-row">
+          <div class="stat-card"><span class="stat-card-icon"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="5" width="18" height="16" rx="1.5"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></span></span><div class="stat-card-num">12</div><div class="stat-card-label">This Month Bookings</div><div class="stat-card-change">↑ 18% vs last month</div></div>
+          <div class="stat-card"><span class="stat-card-icon"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2v20"/><path d="M16.5 6.5c0-1.7-2-3-4.5-3s-4.5 1.3-4.5 3 1.5 2.4 4.5 3c3 .6 4.5 1.3 4.5 3s-2 3-4.5 3-4.5-1.3-4.5-3"/></svg></span></span><div class="stat-card-num">$8,240</div><div class="stat-card-label">Monthly Revenue</div><div class="stat-card-change">↑ 23% vs last month</div></div>
+          <div class="stat-card"><span class="stat-card-icon"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><circle cx="17" cy="9" r="2.6"/><path d="M15 14.2c2.5.4 4.5 2.4 5 5.8"/></svg></span></span><div class="stat-card-num">48</div><div class="stat-card-label">Active Clients</div><div class="stat-card-change">↑ 5 new this month</div></div>
+          <div class="stat-card"><span class="stat-card-icon"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 3l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L12 16.9 6.4 20l1.4-6.2-4.8-4.3 6.4-.6L12 3z"/></svg></span></span><div class="stat-card-num">4.9</div><div class="stat-card-label">Avg. Rating</div><div class="stat-card-change">↑ 0.1 this month</div></div>
+        </div>
+        <div class="dash-grid">
+          <div class="dash-card">
+            <div class="dash-card-header">
+              <div class="dash-card-title">Upcoming Bookings</div>
+              <button class="btn btn-outline btn-sm" onclick="showDashSection('bookings',document.querySelector('.sidebar-item:nth-child(5)'))">View All</button>
+            </div>
+            <div class="booking-list">
+              <div class="booking-row"><div class="booking-avatar">S</div><div class="booking-info"><div class="booking-name">Sarah Mitchell</div><div class="booking-detail">Jul 15 · 2:00 PM · Portrait Session</div></div><span class="booking-status status-confirmed">Confirmed</span></div>
+              <div class="booking-row"><div class="booking-avatar">J</div><div class="booking-info"><div class="booking-name">James & Emma</div><div class="booking-detail">Jul 18 · All Day · Wedding Coverage</div></div><span class="booking-status status-confirmed">Confirmed</span></div>
+              <div class="booking-row"><div class="booking-avatar">A</div><div class="booking-info"><div class="booking-name">Alex Rodriguez</div><div class="booking-detail">Jul 20 · 10:00 AM · Brand Shoot</div></div><span class="booking-status status-pending">Pending</span></div>
+              <div class="booking-row"><div class="booking-avatar">L</div><div class="booking-info"><div class="booking-name">Liu Family</div><div class="booking-detail">Jul 22 · 3:00 PM · Family Portraits</div></div><span class="booking-status status-confirmed">Confirmed</span></div>
+              <div class="booking-row"><div class="booking-avatar">R</div><div class="booking-info"><div class="booking-name">Rachel Green</div><div class="booking-detail">Jul 25 · 11:00 AM · Newborn</div></div><span class="booking-status status-confirmed">Confirmed</span></div>
+            </div>
+          </div>
+          <div class="dash-card">
+            <div class="dash-card-header"><div class="dash-card-title">Quick Actions</div></div>
+            <div class="quick-action-grid">
+              <div class="quick-action" onclick="showDashSection('portfolio',null)"><div class="qa-icon"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="4" width="18" height="16" rx="1.5"/><circle cx="8.5" cy="9.5" r="1.7"/><path d="M4 17l5-5 3.5 3.5L17 10l3 3"/></svg></span></div><div class="qa-label">Add Portfolio Item</div></div>
+              <div class="quick-action" onclick="showDashSection('blog',null)"><div class="qa-icon"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 20h4L19.5 8.5a2.1 2.1 0 0 0-3-3L5.5 16 4 20z"/><path d="M14 6l4 4"/></svg></span></div><div class="qa-label">New Blog Post</div></div>
+              <div class="quick-action" onclick="showDashSection('pricing',null)"><div class="qa-icon"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2v20"/><path d="M16.5 6.5c0-1.7-2-3-4.5-3s-4.5 1.3-4.5 3 1.5 2.4 4.5 3c3 .6 4.5 1.3 4.5 3s-2 3-4.5 3-4.5-1.3-4.5-3"/></svg></span></div><div class="qa-label">Update Pricing</div></div>
+              <div class="quick-action" onclick="showDashSection('emails',null)"><div class="qa-icon"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="M3.5 6l8.5 7 8.5-7"/></svg></span></div><div class="qa-label">Send Email Blast</div></div>
+              <div class="quick-action"><div class="qa-icon"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></span></div><div class="qa-label">View Analytics</div></div>
+              <div class="quick-action"><div class="qa-icon"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9 15l6-6"/><path d="M10 6l1.5-1.5a4 4 0 0 1 5.7 5.7L15.5 12"/><path d="M14 18l-1.5 1.5a4 4 0 0 1-5.7-5.7L8.5 12"/></svg></span></div><div class="qa-label">Google Calendar</div></div>
+            </div>
+            <div style="margin-top:24px;padding:16px;background:rgba(201,169,154,0.1);border-radius:10px;border:1px solid rgba(201,169,154,0.2)">
+              <div style="font-weight:600;color:var(--espresso);font-size:0.85rem;margin-bottom:6px"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="5" width="18" height="16" rx="1.5"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></span> Google Calendar Status</div>
+              <div style="font-size:0.8rem;color:var(--text-light);line-height:1.6">Connected · Last synced 2 min ago<br>12 events synced this month</div>
+              <div style="display:inline-block;background:#E8F5E9;color:#2E7D32;font-size:0.72rem;font-weight:600;padding:3px 10px;border-radius:50px;margin-top:8px"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.5 2.5L16 9.5"/></svg></span> Active</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bookings Section -->
+      <div id="dash-bookings" class="dash-section" style="display:none">
+        <div class="dash-header">
+          <div><div class="dash-title">All Bookings</div><div class="dash-subtitle">Manage and track all client bookings</div></div>
+          <button class="btn btn-primary btn-sm">+ Add Booking</button>
+        </div>
+        <div class="dash-card">
+          <div class="dash-card-header">
+            <input type="text" placeholder="Search bookings..." style="max-width:280px;padding:9px 14px;font-size:0.85rem">
+            <select style="max-width:160px;padding:9px 14px;font-size:0.85rem"><option>All Status</option><option>Confirmed</option><option>Pending</option><option>Cancelled</option></select>
+          </div>
+          <table class="cms-table" aria-label="Bookings table">
+            <thead><tr><th>Client</th><th>Service</th><th>Date & Time</th><th>Amount</th><th>Status</th><th>Actions</th></tr></thead>
+            <tbody>
+              <tr><td><strong>Sarah Mitchell</strong><br><small style="color:var(--text-light)">sarah@email.com</small></td><td>Portrait Session</td><td>Jul 15, 2024 · 2:00 PM</td><td><strong>$580</strong></td><td><span class="booking-status status-confirmed">Confirmed</span></td><td><div class="cms-actions"><button class="cms-btn cms-btn-edit">Edit</button><button class="cms-btn cms-btn-delete" onclick="showToast('Booking cancelled and client notified')">Cancel</button></div></td></tr>
+              <tr><td><strong>James & Emma</strong><br><small style="color:var(--text-light)">james@email.com</small></td><td>Wedding Coverage</td><td>Jul 18, 2024 · All Day</td><td><strong>$2,400</strong></td><td><span class="booking-status status-confirmed">Confirmed</span></td><td><div class="cms-actions"><button class="cms-btn cms-btn-edit">Edit</button><button class="cms-btn cms-btn-delete">Cancel</button></div></td></tr>
+              <tr><td><strong>Alex Rodriguez</strong><br><small style="color:var(--text-light)">alex@email.com</small></td><td>Brand Shoot</td><td>Jul 20, 2024 · 10:00 AM</td><td><strong>$1,200</strong></td><td><span class="booking-status status-pending">Pending</span></td><td><div class="cms-actions"><button class="cms-btn cms-btn-edit" onclick="showToast('Booking confirmed! Email sent to client ✓')">Confirm</button><button class="cms-btn cms-btn-delete">Cancel</button></div></td></tr>
+              <tr><td><strong>Liu Family</strong><br><small style="color:var(--text-light)">liu@email.com</small></td><td>Family Portraits</td><td>Jul 22, 2024 · 3:00 PM</td><td><strong>$380</strong></td><td><span class="booking-status status-confirmed">Confirmed</span></td><td><div class="cms-actions"><button class="cms-btn cms-btn-edit">Edit</button><button class="cms-btn cms-btn-delete">Cancel</button></div></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Portfolio CMS -->
+      <div id="dash-portfolio" class="dash-section" style="display:none">
+        <div class="dash-header">
+          <div><div class="dash-title">Portfolio CMS</div><div class="dash-subtitle">Manage your portfolio gallery items</div></div>
+          <button class="btn btn-primary btn-sm" onclick="showToast('New portfolio item form would open here')">+ Add Item</button>
+        </div>
+        <div class="dash-card">
+          <table class="cms-table" aria-label="Portfolio items table">
+            <thead><tr><th>Preview</th><th>Title</th><th>Category</th><th>Date</th><th>Status</th><th>Actions</th></tr></thead>
+            <tbody>
+              <tr><td><div style="width:52px;height:52px;border-radius:8px;background:linear-gradient(135deg,#C9A99A,#8B7355);display:flex;align-items:center;justify-content:center;font-size:1.4rem"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 8h3l2-3h6l2 3h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/><circle cx="12" cy="13" r="3.5"/></svg></span></div></td><td><strong>Golden Hour Portrait</strong><br><small style="color:var(--text-light)">Sofia R. · Outdoor · 2024</small></td><td><span class="tag">Portrait</span></td><td>Jun 15, 2024</td><td><span style="background:#E8F5E9;color:#2E7D32;font-size:0.72rem;font-weight:600;padding:3px 10px;border-radius:50px">Published</span></td><td><div class="cms-actions"><button class="cms-btn cms-btn-edit">Edit</button><button class="cms-btn cms-btn-delete">Delete</button></div></td></tr>
+              <tr><td><div style="width:52px;height:52px;border-radius:8px;background:linear-gradient(135deg,#E8D0C4,#C9A99A);display:flex;align-items:center;justify-content:center;font-size:1.4rem"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 20.5s-7.5-4.6-9.7-9C.8 8 2 4.5 5.4 3.7 7.7 3.1 9.9 4.2 12 6.7c2.1-2.5 4.3-3.6 6.6-3 3.4.8 4.6 4.3 3.1 7.8-2.2 4.4-9.7 9-9.7 9z"/></svg></span></div></td><td><strong>Riverside Wedding</strong><br><small style="color:var(--text-light)">Williams · Outdoor · 2024</small></td><td><span class="tag">Wedding</span></td><td>May 22, 2024</td><td><span style="background:#E8F5E9;color:#2E7D32;font-size:0.72rem;font-weight:600;padding:3px 10px;border-radius:50px">Published</span></td><td><div class="cms-actions"><button class="cms-btn cms-btn-edit">Edit</button><button class="cms-btn cms-btn-delete">Delete</button></div></td></tr>
+              <tr><td><div style="width:52px;height:52px;border-radius:8px;background:linear-gradient(135deg,#4A2E22,#8B7355);display:flex;align-items:center;justify-content:center;font-size:1.4rem"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="4" width="18" height="16" rx="1.5"/><path d="M3 9h18M3 15h18M8 4v16M16 4v16"/></svg></span></div></td><td><strong>Luminary Brand Film</strong><br><small style="color:var(--text-light)">Commercial · Motion · 2024</small></td><td><span class="tag">Motion</span></td><td>Apr 30, 2024</td><td><span style="background:#FFF3E0;color:#E65100;font-size:0.72rem;font-weight:600;padding:3px 10px;border-radius:50px">Draft</span></td><td><div class="cms-actions"><button class="cms-btn cms-btn-edit" onclick="showToast('Item published successfully! ✓')">Publish</button><button class="cms-btn cms-btn-delete">Delete</button></div></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Blog CMS -->
+      <div id="dash-blog" class="dash-section" style="display:none">
+        <div class="dash-header">
+          <div><div class="dash-title">Blog Posts</div><div class="dash-subtitle">Create and manage blog content</div></div>
+          <button class="btn btn-primary btn-sm" onclick="showToast('Blog editor would open here')">+ New Post</button>
+        </div>
+        <div class="dash-card">
+          <table class="cms-table" aria-label="Blog posts table">
+            <thead><tr><th>Title</th><th>Category</th><th>Author</th><th>Published</th><th>Status</th><th>Actions</th></tr></thead>
+            <tbody>
+              <tr><td><strong>How to Prepare for Your Portrait Session</strong></td><td>Photography Tips</td><td>Sofia Reyes</td><td>Jun 10, 2024</td><td><span style="background:#E8F5E9;color:#2E7D32;font-size:0.72rem;font-weight:600;padding:3px 10px;border-radius:50px">Published</span></td><td><div class="cms-actions"><button class="cms-btn cms-btn-edit">Edit</button><button class="cms-btn cms-btn-delete">Delete</button></div></td></tr>
+              <tr><td><strong>The Golden Hour: Timing Your Wedding Shoot</strong></td><td>Wedding</td><td>Sofia Reyes</td><td>May 28, 2024</td><td><span style="background:#E8F5E9;color:#2E7D32;font-size:0.72rem;font-weight:600;padding:3px 10px;border-radius:50px">Published</span></td><td><div class="cms-actions"><button class="cms-btn cms-btn-edit">Edit</button><button class="cms-btn cms-btn-delete">Delete</button></div></td></tr>
+              <tr><td><strong>Behind the Lens: Creating a Brand Film</strong></td><td>Motion Video</td><td>Marcus Chen</td><td>—</td><td><span style="background:#FFF3E0;color:#E65100;font-size:0.72rem;font-weight:600;padding:3px 10px;border-radius:50px">Draft</span></td><td><div class="cms-actions"><button class="cms-btn cms-btn-edit">Edit</button><button class="cms-btn cms-btn-delete">Delete</button></div></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Pricing CMS -->
+      <div id="dash-pricing" class="dash-section" style="display:none">
+        <div class="dash-header">
+          <div><div class="dash-title">Pricing Management</div><div class="dash-subtitle">Update service pricing visible on the website</div></div>
+          <button class="btn btn-primary btn-sm" onclick="showToast('Pricing saved and website updated ✓')">Save All</button>
+        </div>
+        <div class="dash-card">
+          <h4 style="color:var(--espresso);margin-bottom:20px">Photography Packages</h4>
+          <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-bottom:32px">
+            <div><label>Essential Package</label><input type="text" value="$280" style="margin-top:8px"></div>
+            <div><label>Signature Package</label><input type="text" value="$580" style="margin-top:8px"></div>
+            <div><label>Elite Package</label><input type="text" value="$1,200" style="margin-top:8px"></div>
+          </div>
+          <h4 style="color:var(--espresso);margin-bottom:20px">Videography Packages</h4>
+          <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px">
+            <div><label>Short Film</label><input type="text" value="$800" style="margin-top:8px"></div>
+            <div><label>Cinematic Package</label><input type="text" value="$2,400" style="margin-top:8px"></div>
+            <div><label>Brand Production</label><input type="text" value="$5,500" style="margin-top:8px"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Clients -->
+      <div id="dash-clients" class="dash-section" style="display:none">
+        <div class="dash-header">
+          <div><div class="dash-title">Clients</div><div class="dash-subtitle">48 registered clients</div></div>
+        </div>
+        <div class="dash-card">
+          <table class="cms-table" aria-label="Clients table">
+            <thead><tr><th>Client</th><th>Email</th><th>Bookings</th><th>Total Spent</th><th>Joined</th><th>Actions</th></tr></thead>
+            <tbody>
+              <tr><td><div style="display:flex;align-items:center;gap:10px"><div style="width:36px;height:36px;border-radius:50%;background:var(--blush);display:flex;align-items:center;justify-content:center;color:white;font-family:'Cormorant Garamond',serif;font-weight:600">S</div><strong>Sarah Mitchell</strong></div></td><td>sarah@email.com</td><td>5</td><td>$2,400</td><td>Jan 2024</td><td><div class="cms-actions"><button class="cms-btn cms-btn-edit">View</button></div></td></tr>
+              <tr><td><div style="display:flex;align-items:center;gap:10px"><div style="width:36px;height:36px;border-radius:50%;background:var(--sage);display:flex;align-items:center;justify-content:center;color:white;font-family:'Cormorant Garamond',serif;font-weight:600">J</div><strong>James & Emma</strong></div></td><td>james@email.com</td><td>2</td><td>$2,400</td><td>Mar 2024</td><td><div class="cms-actions"><button class="cms-btn cms-btn-edit">View</button></div></td></tr>
+              <tr><td><div style="display:flex;align-items:center;gap:10px"><div style="width:36px;height:36px;border-radius:50%;background:var(--espresso-soft);display:flex;align-items:center;justify-content:center;color:white;font-family:'Cormorant Garamond',serif;font-weight:600">A</div><strong>Alex Rodriguez</strong></div></td><td>alex@email.com</td><td>3</td><td>$1,680</td><td>Feb 2024</td><td><div class="cms-actions"><button class="cms-btn cms-btn-edit">View</button></div></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Calendar View -->
+      <div id="dash-calendar" class="dash-section" style="display:none">
+        <div class="dash-header">
+          <div><div class="dash-title">Calendar View</div><div class="dash-subtitle">Google Calendar · July 2026</div></div>
+          <div style="display:flex;gap:8px">
+            <button class="btn btn-outline btn-sm">← Prev</button>
+            <button class="btn btn-outline btn-sm">Today</button>
+            <button class="btn btn-outline btn-sm">Next →</button>
+          </div>
+        </div>
+        <div class="dash-card">
+          <div style="display:grid;grid-template-columns:repeat(7,1fr);gap:1px;background:var(--gray-200);border-radius:12px;overflow:hidden">
+            <div style="background:var(--espresso);color:white;padding:12px;text-align:center;font-size:0.75rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase">SUN</div>
+            <div style="background:var(--espresso);color:white;padding:12px;text-align:center;font-size:0.75rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase">MON</div>
+            <div style="background:var(--espresso);color:white;padding:12px;text-align:center;font-size:0.75rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase">TUE</div>
+            <div style="background:var(--espresso);color:white;padding:12px;text-align:center;font-size:0.75rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase">WED</div>
+            <div style="background:var(--espresso);color:white;padding:12px;text-align:center;font-size:0.75rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase">THU</div>
+            <div style="background:var(--espresso);color:white;padding:12px;text-align:center;font-size:0.75rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase">FRI</div>
+            <div style="background:var(--espresso);color:white;padding:12px;text-align:center;font-size:0.75rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase">SAT</div>
+            <!-- Week rows -->
+            <div style="background:white;padding:12px;min-height:100px;font-size:0.85rem;color:var(--gray-400)">30</div>
+            <div style="background:white;padding:12px;min-height:100px;font-size:0.85rem">1</div>
+            <div style="background:white;padding:12px;min-height:100px;font-size:0.85rem">2</div>
+            <div style="background:white;padding:12px;min-height:100px;font-size:0.85rem">3</div>
+            <div style="background:white;padding:12px;min-height:100px;font-size:0.85rem">4</div>
+            <div style="background:white;padding:12px;min-height:100px;font-size:0.85rem">5</div>
+            <div style="background:white;padding:12px;min-height:100px;font-size:0.85rem">6</div>
+            <div style="background:white;padding:12px;min-height:100px;font-size:0.85rem">7</div>
+            <div style="background:white;padding:12px;min-height:100px;font-size:0.85rem">8</div>
+            <div style="background:white;padding:12px;min-height:100px;font-size:0.85rem">9</div>
+            <div style="background:white;padding:12px;min-height:100px;font-size:0.85rem">10</div>
+            <div style="background:white;padding:12px;min-height:100px;font-size:0.85rem">11</div>
+            <div style="background:white;padding:12px;min-height:100px;font-size:0.85rem">12<div style="margin-top:4px;background:var(--blush);color:white;border-radius:4px;padding:2px 6px;font-size:0.7rem">Today</div></div>
+            <div style="background:white;padding:12px;min-height:100px;font-size:0.85rem">13</div>
+            <div style="background:white;padding:12px;min-height:100px;font-size:0.85rem">14</div>
+            <div style="background:white;padding:12px;min-height:100px;font-size:0.85rem">15<div style="margin-top:4px;background:#C9A99A;color:white;border-radius:4px;padding:2px 6px;font-size:0.65rem;overflow:hidden;white-space:nowrap;text-overflow:ellipsis">Sarah · Portrait 2pm</div></div>
+            <div style="background:white;padding:12px;min-height:100px;font-size:0.85rem">16</div>
+            <div style="background:white;padding:12px;min-height:100px;font-size:0.85rem">17</div>
+            <div style="background:white;padding:12px;min-height:100px;font-size:0.85rem">18<div style="margin-top:4px;background:#8B7355;color:white;border-radius:4px;padding:2px 6px;font-size:0.65rem;overflow:hidden;white-space:nowrap;text-overflow:ellipsis">James Wedding</div></div>
+            <div style="background:white;padding:12px;min-height:100px;font-size:0.85rem">19</div>
+            <div style="background:white;padding:12px;min-height:100px;font-size:0.85rem">20<div style="margin-top:4px;background:#C9A99A;color:white;border-radius:4px;padding:2px 6px;font-size:0.65rem;overflow:hidden;white-space:nowrap;text-overflow:ellipsis">Alex · Brand 10am</div></div>
+            <div style="background:white;padding:12px;min-height:100px;font-size:0.85rem">21</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Emails -->
+      <div id="dash-emails" class="dash-section" style="display:none">
+        <div class="dash-header"><div><div class="dash-title">Email Templates</div><div class="dash-subtitle">Manage automated email communications</div></div></div>
+        <div class="grid-3">
+          <div class="dash-card"><div style="font-size:2rem;margin-bottom:12px"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.5 2.5L16 9.5"/></svg></span></div><div class="dash-card-title" style="margin-bottom:8px">Booking Confirmation</div><p style="font-size:0.85rem;color:var(--text-light);margin-bottom:16px">Sent immediately when a booking is confirmed</p><button class="btn btn-outline btn-sm" onclick="showToast('Template editor opened')">Edit Template</button></div>
+          <div class="dash-card"><div style="font-size:2rem;margin-bottom:12px"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></span></div><div class="dash-card-title" style="margin-bottom:8px">Session Reminder</div><p style="font-size:0.85rem;color:var(--text-light);margin-bottom:16px">Sent 48h and 24h before the session</p><button class="btn btn-outline btn-sm" onclick="showToast('Template editor opened')">Edit Template</button></div>
+          <div class="dash-card"><div style="font-size:2rem;margin-bottom:12px"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="4" width="18" height="16" rx="1.5"/><circle cx="8.5" cy="9.5" r="1.7"/><path d="M4 17l5-5 3.5 3.5L17 10l3 3"/></svg></span></div><div class="dash-card-title" style="margin-bottom:8px">Gallery Ready</div><p style="font-size:0.85rem;color:var(--text-light);margin-bottom:16px">Notifies clients when their photos are delivered</p><button class="btn btn-outline btn-sm" onclick="showToast('Template editor opened')">Edit Template</button></div>
+        </div>
+      </div>
+
+      <!-- Settings -->
+      <div id="dash-settings" class="dash-section" style="display:none">
+        <div class="dash-header"><div><div class="dash-title">Settings</div><div class="dash-subtitle">Configure your studio and integrations</div></div></div>
+        <div class="dash-grid">
+          <div class="dash-card">
+            <div class="dash-card-title" style="margin-bottom:24px">Google Calendar Integration</div>
+            <div style="display:flex;align-items:center;gap:12px;padding:16px;background:var(--gray-100);border-radius:10px;margin-bottom:16px">
+              <span style="font-size:1.5rem"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="5" width="18" height="16" rx="1.5"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></span></span>
+              <div style="flex:1"><div style="font-weight:600;font-size:0.88rem;color:var(--espresso)">Google Calendar</div><div style="font-size:0.78rem;color:var(--text-light)">studio@framedandmotion.com</div></div>
+              <span style="background:#E8F5E9;color:#2E7D32;font-size:0.72rem;font-weight:600;padding:4px 12px;border-radius:50px">Connected</span>
+            </div>
+            <div class="form-group"><label>Calendar ID</label><input value="primary" style="margin-top:8px"></div>
+            <div class="form-group"><label>Sync Interval</label><select style="margin-top:8px"><option>Every 5 minutes</option><option>Every 15 minutes</option><option>Every hour</option></select></div>
+            <button class="btn btn-primary btn-sm" onclick="showToast('Settings saved ✓')">Save Integration</button>
+          </div>
+          <div class="dash-card">
+            <div class="dash-card-title" style="margin-bottom:24px">Email Settings (SMTP)</div>
+            <div class="form-group"><label>From Name</label><input value="Framed & Motion Studio" style="margin-top:8px"></div>
+            <div class="form-group"><label>Reply-To Email</label><input value="hello@framedandmotion.com" style="margin-top:8px"></div>
+            <div class="form-group"><label>SMTP Provider</label><select style="margin-top:8px"><option>SendGrid</option><option>Mailgun</option><option>AWS SES</option></select></div>
+            <button class="btn btn-primary btn-sm" onclick="showToast('Email settings saved ✓')">Save Settings</button>
+          </div>
+        </div>
+      </div>
+
+    </main>
+  </div>
+</div>
+
+</main>
+
+<!-- ===== JAVASCRIPT ===== -->
+<script>
+  // ===== NAVIGATION =====
+  let currentPage = 'home';
+  const pageNav = {
+    'home': true, 'portfolio': true, 'services': true, 'booking': true,
+    'about': true, 'contact': true, 'login': true, 'register': true,
+    'dashboard-user': true, 'admin': true
+  };
+
+  function navigate(page) {
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    const target = document.getElementById('page-' + page);
+    if (target) { target.classList.add('active'); currentPage = page; }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    // Update nav active state
+    document.querySelectorAll('.nav-links a').forEach(a => a.classList.remove('active'));
+    const navLinks = { home: 0, portfolio: 1, services: 2, booking: 3, about: 4, contact: 5 };
+    if (navLinks[page] !== undefined) {
+      const links = document.querySelectorAll('.nav-links a');
+      if (links[navLinks[page]]) links[navLinks[page]].classList.add('active');
+    }
+    // Show/hide regular nav for admin/auth
+    const hideNav = ['admin', 'login', 'register'];
+    document.getElementById('navbar').style.display = hideNav.includes(page) ? 'none' : '';
+  }
+
+  // ===== SCROLL EFFECTS =====
+  window.addEventListener('scroll', () => {
+    const nav = document.getElementById('navbar');
+    nav.classList.toggle('scrolled', window.scrollY > 40);
+    // Fade-up animations
+    document.querySelectorAll('.fade-up').forEach(el => {
+      if (el.getBoundingClientRect().top < window.innerHeight * 0.9) {
+        el.classList.add('visible');
+      }
+    });
+  });
+
+  // ===== MOBILE MENU =====
+  function toggleMobile() {
+    const menu = document.getElementById('mobile-menu');
+    const btn = document.getElementById('hamburger');
+    const isOpen = menu.classList.toggle('open');
+    btn.setAttribute('aria-expanded', isOpen);
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+  }
+
+  // ===== TOAST =====
+  let toastTimer;
+  function showToast(msg, type = 'success') {
+    const toast = document.getElementById('toast');
+    document.getElementById('toast-msg').textContent = msg;
+    toast.className = `toast ${type} show`;
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => toast.classList.remove('show'), 4000);
+  }
+  function closeToast() { document.getElementById('toast').classList.remove('show'); }
+
+  // ===== MODAL =====
+  function openModal(id) { document.getElementById(id).classList.add('open'); document.body.style.overflow = 'hidden'; }
+  function closeModal(id) { document.getElementById(id).classList.remove('open'); document.body.style.overflow = ''; }
+  document.querySelectorAll('.modal-overlay').forEach(overlay => {
+    overlay.addEventListener('click', e => { if (e.target === overlay) closeModal(overlay.id); });
+  });
+
+  // ===== PORTFOLIO FILTER =====
+  function filterPortfolio(btn, cat) {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    document.querySelectorAll('.masonry-item').forEach(item => {
+      if (cat === 'all' || item.dataset.cat === cat) {
+        item.style.display = '';
+        item.style.opacity = '1';
+      } else {
+        item.style.opacity = '0.15';
+        item.style.transform = 'scale(0.97)';
+        setTimeout(() => { item.style.display = 'none'; item.style.opacity = ''; item.style.transform = ''; }, 200);
+      }
+    });
+  }
+
+  // ===== PRICING TOGGLE =====
+  let billingIsPackage = false;
+  function toggleBilling() {
+    billingIsPackage = !billingIsPackage;
+    const toggle = document.getElementById('billing-toggle');
+    toggle.classList.toggle('on', billingIsPackage);
+    toggle.setAttribute('aria-checked', billingIsPackage);
+    document.querySelectorAll('.price-num').forEach(el => {
+      if (el.dataset.session && el.dataset.package) {
+        const val = billingIsPackage ? el.dataset.package : el.dataset.session;
+        el.innerHTML = val + ' <small>/ session</small>';
+      }
+    });
+  }
+
+  // ===== CALENDAR =====
+  let calYear = 2024, calMonth = 6; // July 2024
+  let selectedDate = null, selectedTime = null;
+  const bookedDates = [5, 10, 18, 20, 25]; // simulated booked dates
+  const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+
+  function renderCalendar() {
+    const label = document.getElementById('cal-month-label');
+    if (label) label.textContent = months[calMonth] + ' ' + calYear;
+    const days = document.getElementById('cal-days');
+    if (!days) return;
+    const firstDay = new Date(calYear, calMonth, 1).getDay();
+    const daysInMonth = new Date(calYear, calMonth + 1, 0).getDate();
+    const today = new Date();
+    let html = '';
+    for (let i = 0; i < firstDay; i++) html += `<div class="cal-day empty" aria-hidden="true"></div>`;
+    for (let d = 1; d <= daysInMonth; d++) {
+      const isBooked = bookedDates.includes(d);
+      const isPast = new Date(calYear, calMonth, d) < new Date(today.getFullYear(), today.getMonth(), today.getDate());
+      const isToday = d === today.getDate() && calMonth === today.getMonth() && calYear === today.getFullYear();
+      const isSelected = selectedDate === d;
+      let cls = 'cal-day';
+      if (isBooked) cls += ' booked';
+      else if (isPast) cls += ' disabled';
+      if (isToday) cls += ' today';
+      if (isSelected) cls += ' selected';
+      const label2 = isBooked ? `${months[calMonth]} ${d} - Booked` : isPast ? `${months[calMonth]} ${d} - Past` : `${months[calMonth]} ${d}`;
+      html += `<div class="${cls}" role="gridcell" aria-label="${label2}" ${!isBooked && !isPast ? `onclick="selectDate(${d})" tabindex="0"` : 'aria-disabled="true"'}>${d}</div>`;
+    }
+    days.innerHTML = html;
+  }
+
+  function changeMonth(dir) {
+    calMonth += dir;
+    if (calMonth > 11) { calMonth = 0; calYear++; }
+    if (calMonth < 0) { calMonth = 11; calYear--; }
+    selectedDate = null; selectedTime = null;
+    renderCalendar();
+    const ts = document.getElementById('time-slots');
+    if (ts) ts.style.display = 'none';
+    updateSummary();
+  }
+
+  function selectDate(d) {
+    selectedDate = d; selectedTime = null;
+    renderCalendar();
+    renderTimeSlots();
+    updateSummary();
+  }
+
+  const allSlots = ['9:00 AM','10:00 AM','11:00 AM','12:00 PM','1:00 PM','2:00 PM','3:00 PM','4:00 PM','5:00 PM'];
+  const unavailableSlots = ['9:00 AM', '12:00 PM', '4:00 PM'];
+
+  function renderTimeSlots() {
+    const ts = document.getElementById('time-slots');
+    const grid = document.getElementById('slots-grid');
+    if (!ts || !grid) return;
+    ts.style.display = 'block';
+    grid.innerHTML = allSlots.map(s => {
+      const unavail = unavailableSlots.includes(s);
+      const sel = selectedTime === s;
+      return `<button class="slot${unavail ? ' unavailable' : ''}${sel ? ' selected' : ''}" ${unavail ? 'disabled aria-disabled="true"' : `onclick="selectTime('${s}')"`} aria-label="${s}${unavail ? ' - Unavailable' : ''}">${s}</button>`;
+    }).join('');
+  }
+
+  function selectTime(t) {
+    selectedTime = t;
+    renderTimeSlots();
+    updateSummary();
+  }
+
+  function updateSummary() {
+    const dateEl = document.getElementById('summary-date');
+    const timeEl = document.getElementById('summary-time');
+    if (dateEl) dateEl.textContent = selectedDate ? `${months[calMonth]} ${selectedDate}, ${calYear}` : 'Not selected';
+    if (timeEl) timeEl.textContent = selectedTime || 'Not selected';
+  }
+
+  // Service selection
+  let selectedService = { name: 'Portrait Session', price: '$280', duration: '2 hours' };
+  function selectService(btn, name, price, duration) {
+    document.querySelectorAll('.service-select-btn').forEach(b => {
+      b.style.borderColor = 'var(--gray-200)';
+      b.style.background = 'var(--white)';
+      b.querySelector('div:nth-child(3)').style.color = 'var(--text-light)';
+    });
+    btn.style.borderColor = 'var(--blush)';
+    btn.style.background = 'var(--blush-pale)';
+    btn.querySelector('div:nth-child(3)').style.color = 'var(--blush)';
+    selectedService = { name, price, duration };
+    const ss = document.getElementById('summary-service');
+    const sp = document.getElementById('summary-price');
+    const sd = document.getElementById('summary-duration');
+    if (ss) ss.textContent = name;
+    if (sp) sp.textContent = price;
+    if (sd) sd.textContent = duration;
+  }
+
+  function confirmBooking() {
+    const name = document.getElementById('book-name')?.value;
+    const email = document.getElementById('book-email')?.value;
+    if (!name || !email) { showToast('Please fill in your name and email', 'error'); return; }
+    if (!selectedDate) { showToast('Please select a date', 'error'); return; }
+    if (!selectedTime) { showToast('Please select a time slot', 'error'); return; }
+    document.getElementById('confirm-service').textContent = selectedService.name;
+    document.getElementById('confirm-datetime').textContent = `${months[calMonth]} ${selectedDate}, ${calYear} at ${selectedTime}`;
+    document.getElementById('confirm-id').textContent = '#FM2024' + Math.floor(Math.random() * 900 + 100);
+    openModal('booking-modal');
+  }
+
+  // ===== AUTH =====
+  function loginUser() {
+    showToast('Welcome back! Redirecting to your dashboard... 🌸');
+    setTimeout(() => navigate('dashboard-user'), 1000);
+  }
+
+  // ===== CONTACT =====
+  function sendMessage() {
+    const email = document.getElementById('contact-email')?.value;
+    const msg = document.getElementById('contact-msg')?.value;
+    if (!email || !msg) { showToast('Please fill in all required fields', 'error'); return; }
+    showToast('Message sent! We\'ll get back to you within 24 hours 💌');
+  }
+
+  // ===== ADMIN DASHBOARD =====
+  function showDashSection(id, btn) {
+    document.querySelectorAll('.dash-section').forEach(s => s.style.display = 'none');
+    const section = document.getElementById('dash-' + id);
+    if (section) section.style.display = 'block';
+    if (btn) {
+      document.querySelectorAll('.sidebar-item').forEach(i => i.classList.remove('active'));
+      btn.classList.add('active');
+    }
+  }
+
+  // ===== INIT =====
+  renderCalendar();
+
+  // Initial fade-up check
+  setTimeout(() => {
+    document.querySelectorAll('.fade-up').forEach(el => {
+      if (el.getBoundingClientRect().top < window.innerHeight * 0.9) {
+        el.classList.add('visible');
+      }
+    });
+  }, 100);
+
+  // Keyboard nav for calendar
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') {
+      document.querySelectorAll('.modal-overlay.open').forEach(m => closeModal(m.id));
+      if (document.getElementById('mobile-menu').classList.contains('open')) toggleMobile();
+    }
+  });
+
+  // Preload nav scrolled state
+  if (window.scrollY > 40) document.getElementById('navbar').classList.add('scrolled');
+</script>
+</body>
+</html>
